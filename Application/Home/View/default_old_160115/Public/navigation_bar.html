@@ -1,0 +1,72 @@
+<div id="masthead" class="site-header" role="banner">
+	<div class="c_header_box">
+		<h1 class="site-title"><a href="__APP__/" title="{$web_name}" rel="home">{$web_name}</a></h1>
+		<h2 class="site-description">{$description}</h2>
+	</div>
+	<!-- 老导航栏
+	<div id="site-navigation" class="main-navigation" role="navigation">
+		<ul class="nav-menu">
+			<li class="align-left"><a href="__APP__/">首页</a></li>
+			<volist name="menu" id="vo">
+			<li class="align-left"><a href="__APP__/Home/category/id/{$vo.id}">{$vo.name}</a>
+				<ul class="sub-menu">
+					<volist name="vo.sons" id="v">
+					<li><a href="__APP__/Home/category/id/{$v.id}">{$v.name}</a></li>
+					</volist>
+				</ul>
+			</li>
+			</volist>
+		</ul>
+	</div>
+	-->
+	<!-- 新导航栏 start-->
+	<div class="category_nav">
+		<div id="nav-menu">
+			<div class="nav_container">
+				<div class="innerbox clearfixmenu">
+					<ul class="menu">
+						<li class="stmenu">
+						  <h3><a href="{:U('Home/index')}" class="xialaguang title="{$web_name}"><span>网站首页</span></a></h3>
+						</li>
+
+						<volist name="menu" id="vo">
+						<if condition="$vo.sons neq null">
+						<li class="stmenu">
+							<h3>
+								<a href="__APP__/Home/category/id/{$vo.id}" class="xialaguang navhovers" title="{$vo.keywords}"><span>{$vo.name}</span></a>
+							</h3>
+							<ul style="display: none;" class="children clearfixmenu">
+								<volist name="vo.sons" id="v" key="i">
+									<li <if condition=" $i%2 == 0 "> class="noborder"</if>>
+										<h3>
+											<a href="__APP__/Home/category/id/{$v.id}" class="stmenu" title="{$v.keywords}">
+												<span>{$v.name}</span>
+											</a>
+										</h3>
+									</li>
+								</volist>
+								<li class="intro_box">
+								  <div>{$vo.intro}</div>
+								</li>
+							</ul>
+						</li>
+						<else />
+						<li class="stmenu">
+							<h3>
+								<a href="__APP__/Home/category/id/{$vo.id}" class="xialaguang" style="margin-left:1px" title="{$vo.intro}"><span>{$vo.name}</span></a>
+							</h3>
+						</li>
+						</if>
+						</volist>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+</div>
+
+<!--主页左侧浮动快捷分享--><!--js api代码问题时好时坏-->
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"slide":{"type":"slide","bdImg":"5","bdPos":"right","bdTop":"162.5"},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"32"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>

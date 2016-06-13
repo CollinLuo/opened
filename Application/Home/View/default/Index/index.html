@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="zh-CN">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>{$web_name}-{$description}</title>
+		<meta name="keywords" content="{$keywords}"/>
+		<meta name="description" content="{$seo_description}" />
+		<meta name="baidu-site-verification" content="" />
+		<!--css-->
+		<link rel='stylesheet' id='twentytwelve-style-css'  href='__PUBLIC__/Css/Home/style.css' type='text/css' media='all' />
+		<!-- js -->
+		<!-- jQuery -->
+		<script type="text/javascript" src="__PUBLIC__/Js/Common/jquery-1.9.0.min.js"></script>
+	</head>
+	<body class="home blog custom-background custom-font-enabled single-author">
+		<div id="page" class="container">
+			<div class="page_header">
+				<div class="blogname push-left">
+					<a href="{:U('Index/index')}" title="TryDemo"><img width="256px" height="60px" src="__PUBLIC__/Img/Common/logo.png" alt="TryDemo"></a>
+				</div>
+				<div class="banner push-right">
+                 	<div class="topbar">
+						<div class="menu">
+							<ul>
+								<li class="page_item page-item-2"><a href="javascript:void(0);">品牌策划</a></li>
+								<li class="page_item page-item-2"><a href="javascript:void(0);">视觉识别</a></li>
+								<li class="page_item page-item-2"><a href="javascript:void(0);">广告</a></li>
+								<li class="page_item page-item-2"><a href="javascript:void(0);">公关</a></li>
+								<li class="page_item page-item-2"><a href="javascript:void(0);">网络推广</a></li>
+								<if condition="$login_mark eq 1"><li class="page_item page-item-2"><a href="{:U('User/findPwdAct')}">找回密码</a></li></if>
+							</ul>
+						</div>
+					</div>					
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<div class="content_box">
+				<div class="article_box">
+					<div class="ar_title_box"><h1 class="title_style_set"><b>OPENED,就是按满意度付费</b></h1></div>
+					<div>
+						<p style="line-height:1.2">
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“按满意度付费”在广告业可是个新标准，不过别担心，它一点都不难理解。</h5>
+						</p>
+						<p style="line-height:1.2">
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以往，收费的多少要在合作之前，通过谈判决定，双方的专家预估工作量。企业的支付能力，广告公司的水平等等一些因素来确定金额。这样做耗费了大量的精力，最头疼的是：预估和实际往往差异非常大，比如遇到突发问题需要额外的时间解决，或是广告公司发挥的不好等等。这造成了广告行业的诸多问题，但其实这些问题都能避免，方法就是--后计费。</h5>
+						</p>
+						<br />
+						<br />
+						<p style="line-height:1.2">
+							<h5>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OPENED “按满意度付费” 每小时150元服务费，根据实际用了多少小时，结合客户的评价来付费。
+							</h5>
+						</p>
+						<p style="line-height:1.2">
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;许许多多的中小企业客户选择OPENED，就是因为这种付费方式省心，透明而且很公平：合作前不用在方法或是成本上兜圈子，工作中坦诚认真，专注于结果。看上去是一点点心态的小改变，却能激发友好的氛围，使广告服务更高效。
+							</h5>
+						</p>
+						<p style="line-height:1.2">
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果你也喜欢公平的合作方式，说不定这也是你正在找的。</h5>
+						</p>
+					</div>
+				</div>
+				<div class="img_box">
+					<img src="__PUBLIC__/Img/Home/index/index_img_1.png" alt="Opened"/>
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="page_footer">
+				<div class="nav"></div>
+				<div id="colophon" class="c_footer_info">
+					<div class="site-info">
+						<span>友情链接：</span>
+						<volist name="linkList" id="vo">
+							<a href="{$vo.link_url}" target="_blank">{$vo.link_name}</a>
+						</volist>
+					</div>
+				</div>
+				<div class="f_middle_info">
+					<ul class="info_menu">
+						<li class="info_stmenu">
+							<span class="text_span">北京 <b class="font_big">4007004941</b></span>
+						</li>
+						<li class="info_stmenu">
+							<span class="text_span">上海 <b class="font_big">55310556*2801</b></span>
+						</li>
+						<li class="info_stmenu border_left">
+							<span class="text_span font_medium">谁是LightBP?</span>
+						</li>
+						<li class="info_stmenu border_left border_right">
+							<span class="text_span font_medium">网站地图</span>
+						</li>
+						<li class="info_stmenu">
+							<span><a href="javascript:void(0);" target="_blank" class="info_stmenu_a">沪ICP备06046803</a>&nbsp;&nbsp;&nbsp;&nbsp;Copyright©2006<br><span class="font_little">北京环球看点广告传媒有限公司保留所有权利</span></span>
+						</li>
+						<li class="info_stmenu">
+							<span class="li_img"><a ><img src="__PUBLIC__/Img/Common/logo_little.png" alt="Opened"></a></span>
+						</li>
+						<li class="li_background_set ">
+							<span class="text_span font_big"><if condition="$login_mark eq 1"><a href="{:U('User/logout')}" class="" alt="退出">退出</a>/<a href="{:U('User/uCenter')}" class="" alt="帮助">帮助</a><else /><a href="{:U('User/loginAct')}" class="" alt="登录">登录</a>/<a href="{:U('User/registerAct')}" class="" alt="注册">注册</a></if></span>
+						</li>
+					</ul>
+				</div>
+				<div class="c_footer_info" style="margin-top:0;">
+					<div class="site-info" style="text-align:center;">
+						<span>{$beian}<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1000244962'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000244962%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></span>
+						<p class="author"><a href="" target="_blank" rel="external">Theme By D.Apache.Luo</a></p>
+					</div>
+				</div>			
+			</div>
+			
+		</div>
+	</body>
+</html>

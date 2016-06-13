@@ -1,0 +1,90 @@
+<div id="secondary" class="widget-area" role="complementary">
+	<div id="search-2" class="widget widget_search">
+		<form role="search" method="get" id="searchform" action="__APP__/Home/search">
+			<label class="screen-reader-text" for="s">搜索:</label>
+			<input onfocus="if(this.value=='请输入搜索内容'){this.value='';}" onblur="if(this.value==''){this.value='请输入搜索内容';}" type="text" value="请输入搜索内容" name="keywords" id="s" style="color:#aaa;"/>
+			<input class="s_input_btn" type="submit" id="searchsubmit" value="搜索" />
+		</form>
+	</div>		
+	<div id="recent-posts-2" class="widget widget_recent_entries">		
+		<h3 class="widget-title">近期文章</h3>		
+		<ul>
+			<volist name="rightList" id="vo">
+			<li><font style="color:#7a7a7a;">[{$i}]</font>&nbsp;<a href="__APP__/Article/index/id/{$vo.id}" title="{$vo.title}">{$vo.title|msubstr=0,22}</a></li>
+			</volist>
+		</ul>
+	</div>
+	<div id="recent-comments-2" class="widget widget_recent_comments">
+		<h3 class="widget-title">近期评论</h3>
+		<ul id="recentcomments">
+			<volist name="recentCommonet" id="vo">
+			<li class="recentcomments">{$vo.comment_author_name} 发表在《<a href="__APP__/Article/index/id/{$vo.aid}" title="{$vo.atitle}">{$vo.atitle|msubstr=0,13}</a>》</li>
+			</volist>
+		</ul>
+	</div>
+	<div id="home_r_archives_2" class="widget widget_archive">
+		<h3 class="widget-title">文章归档</h3>
+			<ul>		
+				<volist name="monthList" id="vo">			
+				<li><a href='__APP__/Home/tag/t/{$vo.pdate}' title='{$vo.pubdate}'>{$vo.pubdate}</a>&nbsp;<font style="color:#7a7a7a;">({$vo.num})</font></li>
+				</volist>
+			</ul>
+	</div>
+	<div id="home_r_categories" class="widget widget_categories">
+		<h3 class="widget-title">分类目录</h3>
+		<ul>
+			<volist name="menu" id="vo">
+				<li class="cat-item cat-item-2"><a href="__APP__/Home/category/id/{$vo.id}" title="{$vo.name}">{$vo.name}</a></li>
+			</volist>
+		</ul>
+	</div>
+	<div id="home_r_user_box" class="widget widget_categories">
+		
+		<div id="home_r_u_login_box" <if condition="$login_mark eq 1">style="display:none;"</if>>
+			<h3 class="widget-title">用户登录</h3>
+			<form id="loginForm" action="{:U('User/ajaxLogin')}" method="post" onsubmit="return doUserLogin()">
+				<div class="login_box_l">
+					<p>
+						<label>用户名</label><input class="login" type="text" name="uname" id="uname" value="" size="12" />
+					</p>
+					<p>
+						<label>密　码</label><input class="login" type="password" name="upwd" id="upwd" value="" size="12" />
+					</p>
+				</div>
+				<div class="login_box_r">
+					<input type="hidden" name="actUrl" value="{:U('User/ajaxLogin')}">
+					<input type="hidden" name="actAjaxUrl" value="{:U('User/ajaxLogout')}">
+					<input class="denglu btn" type="submit" name="submit" value="登 陆" />
+				</div>
+				<div class="clear"></div>
+				<p>
+					<a class="login_box_register" href="{:U('User/registerAct')}">用户注册</a>
+					<label class="login_box_remember"><input id="comment_mail_notify" type="checkbox" name="rememberme" value="forever" />记住我 </label>
+				</p>
+			</form>
+		</div>
+		<div id="home_r_u_info_box" <if condition="$login_mark eq 0">style="display:none;"</if>>
+			<h3 class="widget-title">用户管理</h3>
+			<div class="user_info_box">
+				<div class="u_i_avatar">
+					<img height="70px" width="70px" <if condition="$user_info.avatar neq ''">src="__ROOT__/Uploads/Common/avatar_small/{$user_info.avatar}"<else />src="__ROOT__/Uploads/Common/avatar_small/no_face.png"</if> alt="" title="" />
+				</div>
+				<div class="u_i_tags">
+					<span class="u_i_tag"><a class="btn" href="javascript:void(0);">用户中心</a></span>
+					<span class="u_i_tag"><a class="btn" <if condition="$is_ajax_logout eq 1">href="javascript:void(0);" onclick="doUserLogout()"<else />href="{:U('Home/logout')}"</if>>注销</a></span>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div id="hot_labels" class="widget widget_categories">
+		<h3 class="widget-title">热门标签(<font style="font-weight:normal;">字体越大表示标签越热门额</font>^-^)</h3>
+		<ul>
+			<li class="cat-item cat-item-2">
+				<volist name="hotTag" id="vo">
+				<a href="__APP__/Home/tag/tag/{$vo.tagname}" title="{$vo.tagname}" style="font-size:{$vo.size}px;text-decoration:none;">{$vo.tagname}</a> &nbsp;
+				</volist>
+			</li>
+		</ul>
+	</div>		
+</div>

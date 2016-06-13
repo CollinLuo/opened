@@ -1,0 +1,182 @@
+Array
+(
+    [0] => Array
+        (
+            [aid] => 88999
+            [username] => Cursor
+            [avatar] => user100_1176.jpg
+            [mobile_number] => 0
+            [role_id] => 15
+            [user_id] => 88999
+        )
+
+    [1] => Array
+        (
+            [aid] => 89000
+            [username] => shengxianda
+            [avatar] => user100_1231.jpg
+            [mobile_number] => 1377885566
+            [role_id] => 15
+            [user_id] => 89000
+        )
+
+)
+<br></pre></div><div style="width:600px;text-align:left;margin-top:10px;margin-left:5px;margin-bottom:10px;"><pre>Array
+(
+    [0] => Array
+        (
+            [aid] => 88997
+            [username] => demo01
+            [avatar] => user100_1956.jpg
+            [mobile_number] => 0
+            [r_id] => 2
+            [r_name] => 管理员
+            [r_pid] => 1
+            [r_status] => 1
+        )
+
+    [1] => Array
+        (
+            [aid] => 89003
+            [username] => ceshi01
+            [avatar] => user100_1301.jpg
+            [mobile_number] => 0
+            [r_id] => 7
+            [r_name] => 前台用户
+            [r_pid] => 1
+            [r_status] => 1
+        )
+
+    [2] => Array
+        (
+            [aid] => 89005
+            [username] => ceshi04
+            [avatar] => user100_1481.jpg
+            [mobile_number] => 0
+            [r_id] => 7
+            [r_name] => 前台用户
+            [r_pid] => 1
+            [r_status] => 1
+        )
+
+    [3] => Array
+        (
+            [aid] => 89007
+            [username] => ceshi08
+            [avatar] => user100_1491.jpg
+            [mobile_number] => 0
+            [r_id] => 7
+            [r_name] => 前台用户
+            [r_pid] => 1
+            [r_status] => 1
+        )
+
+    [4] => Array
+        (
+            [aid] => 88997
+            [username] => demo01
+            [avatar] => user100_1956.jpg
+            [mobile_number] => 0
+            [r_id] => 11
+            [r_name] => 甲方
+            [r_pid] => 7
+            [r_status] => 1
+        )
+
+    [5] => Array
+        (
+            [aid] => 89010
+            [username] => ceshi07
+            [avatar] => user100_1586.jpg
+            [mobile_number] => 13865431245
+            [r_id] => 11
+            [r_name] => 甲方
+            [r_pid] => 7
+            [r_status] => 1
+        )
+
+    [6] => Array
+        (
+            [aid] => 89004
+            [username] => ceshi03
+            [avatar] => user100_1336.jpg
+            [mobile_number] => 0
+            [r_id] => 11
+            [r_name] => 甲方
+            [r_pid] => 7
+            [r_status] => 1
+        )
+
+    [7] => Array
+        (
+            [aid] => 89008
+            [username] => ceshi06
+            [avatar] => user100_1471.jpg
+            [mobile_number] => 0
+            [r_id] => 11
+            [r_name] => 甲方
+            [r_pid] => 7
+            [r_status] => 1
+        )
+
+    [8] => Array
+        (
+            [aid] => 89011
+            [username] => ceshi010
+            [avatar] => user100_1921.jpg
+            [mobile_number] => 0
+            [r_id] => 12
+            [r_name] => 乙方
+            [r_pid] => 7
+            [r_status] => 1
+        )
+
+    [9] => Array
+        (
+            [aid] => 89006
+            [username] => ceshi05
+            [avatar] => user100_1461.jpg
+            [mobile_number] => 0
+            [r_id] => 12
+            [r_name] => 乙方
+            [r_pid] => 7
+            [r_status] => 1
+        )
+
+    [10] => Array
+        (
+            [aid] => 88997
+            [username] => demo01
+            [avatar] => user100_1956.jpg
+            [mobile_number] => 0
+            [r_id] => 8
+            [r_name] => 后台用户
+            [r_pid] => 1
+            [r_status] => 1
+        )
+
+    [11] => Array
+        (
+            [aid] => 88999
+            [username] => Cursor
+            [avatar] => user100_1176.jpg
+            [mobile_number] => 0
+            [r_id] => 15
+            [r_name] => 公司管理员
+            [r_pid] => 8
+            [r_status] => 1
+        )
+
+    [12] => Array
+        (
+            [aid] => 89000
+            [username] => shengxianda
+            [avatar] => user100_1231.jpg
+            [mobile_number] => 1377885566
+            [r_id] => 15
+            [r_name] => 公司管理员
+            [r_pid] => 8
+            [r_status] => 1
+        )
+
+)

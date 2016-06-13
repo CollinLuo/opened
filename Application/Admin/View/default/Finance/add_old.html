@@ -1,0 +1,150 @@
+<include file="Public:header" />
+<body>
+	<div id="main_box">
+		<div class="content-box">
+      		<!-- Start Content Box -->
+			<div class="content-box-header">
+			<h3>{$navigation_bar}</h3>
+				<ul class="content-box-tabs">
+					<li><a href="#tab1" class="default-tab">Table</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<!-- End .content-box-header -->
+			<div class="content-box-content">
+				<div class="tab-content default-tab" id="tab1">
+					<div class="notification attention png_bg">
+						<div class="close">
+						<a href="#"><img src="__PUBLIC__/Img/Admin/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+						</div>
+						<div> 这是一个公告栏。顺便一提,你可以关闭此通知。<include file="Public:clue" /></div>
+    				</div>
+
+					<div class="u_tab_form">
+						<table align="center" width="100%">
+							<if condition="$act eq 'mAdd'">
+							<form action="{:U('User/mAdd')}"  name="user_form" method="post">
+							<elseif condition="$act eq 'mEdit'" />
+							<form action="{:U('User/mEdit')}" name="user_form" method="post">
+							<else />
+							<form action="{:U('User/index')}" name="user_form" method="post">
+							</if>
+								<tr>
+									<th><span class="ud_width">公司名称:<font color="red">*</font></span></th>
+									<td>
+										<if condition="$act eq 'mAdd'">
+											<input name="name" type="text" />&nbsp;&nbsp;可以使用中文，但禁止除[@][.]以外的特殊符号
+										<else />
+											<input name="name" type="text"  value="{$company_info.name}" readonly='readonly' disabled="disabled" />
+										</if>
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">电子邮件:<font color="red">*</font></span></th>
+									<td><input type="text" name="email" value='{$company_info.email}' /><if condition="$act eq 'mAdd'">&nbsp;&nbsp;请正确填写公司电子邮件地址</if></td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">公司电话:</span></th>
+									<td><input type="text" name="email" value='{$company_info.email}' /><if condition="$act eq 'mAdd'">&nbsp;&nbsp;请正确填写公司电话</if></td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">公司地址:</span></th>
+									<td><input type="text" name="address" value='{$company_info.address}' /></td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">公司网站:</span></th>
+									<td><input type="text" name="website" value='{$company_info.website}' /></td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">QQ:</span></th>
+									<td>
+										<if condition="($company_info.qq eq 0) OR ($company_info.qq eq '')">
+										<input type="text" name="qq" value='' />
+										<else />
+										<input type="text" name="qq" value='{$company_info.qq}' />
+										</if>
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">性别:</span></th>
+									<td>
+										<if condition="$act eq 'mAdd'">
+											<input type="radio" name="sex" value="1"   />男
+											<input type="radio" name="sex" value="2" />女
+											<input type="radio" name="sex" value="0" checked />保密	
+										<else />
+											<if condition="$company_info.sex eq 1">
+												<input type="radio" name="sex" value="1" checked />男
+												<input type="radio" name="sex" value="2" />女
+												<input type="radio" name="sex" value="0" />保密	
+											<elseif condition="$company_info.sex eq 2" />
+												<input type="radio" name="sex" value="1" />男
+												<input type="radio" name="sex" value="2" checked />女
+												<input type="radio" name="sex" value="0" />保密
+											<else />
+												<input type="radio" name="sex" value="1"   />男
+												<input type="radio" name="sex" value="2" />女
+												<input type="radio" name="sex" value="0" checked />保密	
+											</if>
+										</if>
+
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">是否禁用:</span></th>
+									<td>
+										<if condition="$act eq 'mAdd'">
+											<input type="radio" name="status" value="1" />启用
+											<input type="radio" name="status" value="0" checked="checked" />禁用
+										<else />
+											<if condition="$company_info.status eq 1">
+												<input type="radio" name="status" value="1" checked="checked" />启用
+												<input type="radio" name="status" value="0" />禁用
+											<else />
+												<input type="radio" name="status" value="1" />启用
+												<input type="radio" name="status" value="0" checked="checked" />禁用
+											</if>
+										</if>
+										
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">备注:</span></th>
+									<td>
+										
+										<textarea name="remark" rows="2" cols="20" id="remark" class="inputtext" style="height: 122px; width: 400px; margin-top: 0px; margin-bottom: 0px;">{$company_info.remark}</textarea>
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<if condition="$act eq 'mAdd'">
+											<input type="submit" value="添加" />
+										<elseif condition="$act eq 'mEdit'" />
+											<input type="hidden" name='id' value="{$company_info.aid}" />	
+											<input name="submit" type="submit" value="修改" />
+										</if>
+										<input name="reset" type="reset" value="重置" />
+									</td>
+								</tr>
+							</form>	
+						</table>		
+					</div>
+				</div>  
+			<!-- End #tab1 -->	
+			</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->	
+    	<div class="clear"></div>
+    	<div id="footer"> <small>
+      	<!-- Remove this notice or replace it with whatever you want -->
+      	&#169; Copyright 2013 Your Company | Powered by <a href="http://www.cheshop.com">D.Apache.Luo</a> | <a href="#">Top</a> </small> </div>
+    	<!-- End #footer -->
+  </div>
+  <!-- End #main-content -->
+</div>
+</div>
+</body>
+<include file="Public:footer" />
+

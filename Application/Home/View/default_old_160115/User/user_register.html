@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="zh-CN">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>{$web_name} › {$current_page}</title>
+		<meta name="robots" content="noindex,nofollow">
+		<meta name="keywords" content="{$keywords}"/>
+		<meta name="description" content="{$seo_description}" />
+		<meta name="baidu-site-verification" content="" />
+		<!--css-->
+		<link rel='stylesheet' id='twentytwelve-style-css'  href='__PUBLIC__/Css/Common/common.css' type='text/css' media='all' />
+		<!-- js -->
+		<!-- jQuery -->
+		<script type="text/javascript" src="__PUBLIC__/Js/Common/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/Common/common.js"></script> 
+		
+	</head>
+	<body class="login login-action-register" youdao="bind">
+		<div id="u_login_box">
+			<h1><a href="{:U('Home/index')}" title="TryDemo个人博客">TryDemo</a></h1>
+			<p class="message register">在这里注册</p>
+
+			<form name="registerform" id="registerform" action="{:U('User/registerAct')}" method="post" onsubmit="return registerValidate()">
+				<p>
+					<label for="user_login">用户名<br>
+					<input type="text" name="user_name" id="user_name" class="input" value="" size="20"></label>
+				</p>
+				<p>
+					<label for="user_email">电子邮件<br>
+					<input type="text" name="user_email" id="user_email" class="input" value="" size="25"></label>
+				</p>
+				<p id="reg_passmail">密码将通过电子邮件发送给您。</p>
+				<br class="clear">
+				<input type="hidden" name="redirect_to" value="{:U('User/registerAct')}">
+				<p class="submit"><input type="submit" name="tp-submit" id="tp-submit" class="button button-primary button-large" value="注册"></p>
+			</form>
+			<p id="nav">
+				<a href="{:U('User/loginAct')}">登录</a> |
+				<a href="{:U('User/findPwdAct')}" title="找回密码">忘记密码？</a>
+			</p>
+			<p id="backtoblog"><a href="{:U('Home/index')}" title="不知道自己在哪？">← 回到TryDemo</a></p>
+		</div>
+		<div class="clear"></div>
+		<script type="text/javascript">
+			function wp_attempt_focus(){
+				setTimeout( function(){ 
+					try{
+						d = document.getElementById('user_name');
+						d.focus();
+						d.select();
+					} catch(e){
+					
+					}
+				}, 200);
+			}
+			wp_attempt_focus();
+
+			//表单提交验证
+			function registerValidate(){
+				var flag = true;
+				var msg = '';
+				var user_name = $.trim($('#user_name').val());
+				var user_email = $.trim($('#user_email').val());
+				
+				if(!user_name.length){
+					msg += '用户名不能为空！\n';
+					flag = false;
+				}
+				
+				var regu = "^(([0-9a-zA-Z]+)|([0-9a-zA-Z]+[_.0-9a-zA-Z-]*[0-9a-zA-Z-]+))@([a-zA-Z0-9-]+[.])+([a-zA-Z]|net|NET|asia|ASIA|com|COM|gov|GOV|mil|MIL|org|ORG|edu|EDU|int|INT|cn|CN|cc|CC)$";
+				var re = new RegExp(regu);
+				if(!user_email.length){
+					msg += '邮箱不能为空！\n';
+					flag = false;
+				}else if(user_email.search(re) == -1){
+					msg += '邮箱格式错误！\n';
+					flag = false;
+				}
+
+				if(!flag){
+					alert(msg);
+					//调用屏幕抖动效果
+					addLoadEvent(function(){ var p=new Array(15,30,15,0,-15,-30,-15,0);p=p.concat(p.concat(p));var i=document.forms[0].id;g(i).position='relative';shake(i,p,20);});
+				}
+				return flag;
+			
+			}	
+
+
+		</script>
+	</body>
+</html>

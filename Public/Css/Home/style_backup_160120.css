@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+body {
+    background: #ccc none repeat scroll 0 0;
+    color: #000;
+    font: 100%/1.4 Verdana,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul, ol, dl {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a img {
+    border: medium none;
+}
+a:link {
+    color: #42413c;
+    text-decoration: underline;
+}
+a:visited {
+    color: #6e6c64;
+    text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+    text-decoration: none;
+}
+.container {
+    background: #ffffff none repeat scroll 0 0;
+    margin: 0 auto;
+    width: 1000px;
+}
+.header {
+    background-color: #fff;
+}
+.sidebar1 {
+    background: #eadcae none repeat scroll 0 0;
+    float: left;
+    padding-bottom: 10px;
+    width: 180px;
+}
+.content {
+    float: left;
+    padding: 10px 0;
+    width: 600px;
+}
+.sidebar2 {
+    background: #eadcae none repeat scroll 0 0;
+    float: left;
+    padding: 10px 0;
+    width: 180px;
+}
+.content ul, .content ol {
+    padding: 0 15px 15px 40px;
+}
+ul.nav {
+    border-top: 1px solid #666;
+    list-style: outside none none;
+    margin-bottom: 15px;
+}
+ul.nav li {
+    border-bottom: 1px solid #666;
+}
+ul.nav a, ul.nav a:visited {
+    background: #c6d580 none repeat scroll 0 0;
+    display: block;
+    padding: 5px 5px 5px 15px;
+    text-decoration: none;
+    width: 160px;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+    background: #adb96e none repeat scroll 0 0;
+    color: #fff;
+}
+.footer {
+    background: #ccc none repeat scroll 0 0;
+    clear: both;
+    padding: 10px 0;
+    position: relative;
+}
+.fltrt {
+    float: right;
+    margin-left: 8px;
+}
+.fltlft {
+    float: left;
+    margin-right: 8px;
+}
+.clearfloat {
+    clear: both;
+    font-size: 1px;
+    height: 0;
+    line-height: 0;
+}
+
+
+
+
+
+
+
+body{font-family: "微软雅黑";}
+.hei12-hei {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	line-height: 18px;
+}
+.hei16-hei {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+	line-height: 24px;
+}
+.hei16-bai {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFF;
+}
+.hei24-hei {
+	font-family: "微软雅黑";
+	font-size: 24px;
+	line-height: 36px;
+	color: #000;
+}
+.hei24-bai {
+	font-family: "微软雅黑";
+	font-size: 24px;
+	line-height: 36px;
+	color: #FFF;
+}
+.hei18-bai {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-style: normal;
+	line-height: 26px;
+	color: #FFF;
+}
+.hei21-bai {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 18px;
+	color: #FFF;
+}
+.hei21-hei {
+	font-family: "微软雅黑";
+	font-size: 21px;
+	font-style: normal;
+	line-height: 28px;
+	color: #000;
+}
+.hei14-hei {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 21px;
+	color: #000;
+}
+.hei14-bai {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 21px;
+	color: #FFF;
+}
+.hei21-bai {
+	font-family: "微软雅黑";
+	font-size: 21px;
+	font-style: normal;
+	line-height: 28px;
+	color: #FFF;
+}
+.hei12-bai {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: normal;
+	color: #FFF;
+}
+.hei18-hei {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 26px;
+	color: #000;
+}
+.hei18-hui {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 24px;
+	color: #666;
+}
+.hei14-hui {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 18px;
+	color: #999;
+}.hei14-lan {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 18px;
+	color: #000099;
+}
+.hei36-hei {
+	font-family: "微软雅黑";
+	font-size: 36px;
+	line-height: 48px;
+	color: #000;
+}
+.hei36-bai {
+	font-family: "微软雅黑";
+	font-size: 36px;
+	font-style: normal;
+	line-height: 48px;
+	color: #FFF;
+}

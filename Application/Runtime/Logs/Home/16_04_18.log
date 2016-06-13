@@ -1,0 +1,928 @@
+[ 2016-04-18T09:36:34+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009907s ]
+
+[ 2016-04-18T09:36:37+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-04-18T09:36:39+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-04-18T09:36:39+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-04-18T09:36:51+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-04-18T09:36:51+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-04-18T09:36:53+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-04-18T09:36:55+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-04-18T10:40:31+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-04-18T10:40:35+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-04-18T10:40:35+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-04-18T10:40:38+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-04-18T10:40:38+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-04-18T10:40:51+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-04-18T10:40:52+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-04-18T10:40:52+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-04-18T10:40:58+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-04-18T10:40:58+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-04-18T10:41:01+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-04-18T10:41:02+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-04-18T10:50:51+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T10:50:53+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T10:50:54+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T11:25:11+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-04-18T11:25:11+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T11:25:23+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+
+[ 2016-04-18T11:25:24+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T11:28:44+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-04-18T11:28:44+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:06:25+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-04-18T13:06:25+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-04-18T13:06:26+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:06:29+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-04-18T13:06:30+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-04-18T13:06:30+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:06:39+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-04-18T13:06:39+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-04-18T13:06:39+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:06:41+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-04-18T13:06:41+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:06:43+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-04-18T13:06:44+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:15:21+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-04-18T13:15:21+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:20:17+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+
+[ 2016-04-18T13:20:18+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:29:31+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-04-18T13:29:31+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:34:26+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-04-18T13:34:27+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:34:35+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-04-18T13:34:35+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:35:22+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-04-18T13:35:22+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:38:39+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-04-18T13:38:40+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:39:06+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-04-18T13:39:06+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:39:38+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0066s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-04-18T13:40:46+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-04-18T13:40:47+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:41:05+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-04-18T13:41:05+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:41:42+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-04-18T13:41:42+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:43:04+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-04-18T13:43:05+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:44:22+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-04-18T13:44:22+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:45:27+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-04-18T13:45:27+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:54:10+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-04-18T13:54:11+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:56:49+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-04-18T13:56:50+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:56:57+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2016-04-18T13:59:11+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-04-18T13:59:11+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:59:35+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-04-18T13:59:35+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T13:59:44+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0064s ]
+NOTIC: [2] fopen(G:\works\code\php\phpStudy\WWW\opened/Home/ajax.txt): failed to open stream: No such file or directory G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1590 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1628 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1633 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-04-18T13:59:57+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0543s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0240s ]
+NOTIC: [2] fopen(G:\works\code\php\phpStudy\WWW\opened/Home/ajax.txt): failed to open stream: No such file or directory G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1590 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1628 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1633 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-04-18T14:01:38+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-04-18T14:01:38+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T14:01:44+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0034s ]
+NOTIC: [2] fopen(G:\works\code\php\phpStudy\WWW\opened/Home/ajax.txt): failed to open stream: No such file or directory G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1590 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1628 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1633 行.
+NOTIC: [2] fopen(G:\works\code\php\phpStudy\WWW\opened/Home/ajax.txt): failed to open stream: No such file or directory G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1590 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1594 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1633 行.
+NOTIC: [2] fopen(G:\works\code\php\phpStudy\WWW\opened/Home/ajax.txt): failed to open stream: No such file or directory G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1590 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1594 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1633 行.
+NOTIC: [2] fopen(G:\works\code\php\phpStudy\WWW\opened/Home/ajax.txt): failed to open stream: No such file or directory G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1590 行.
+NOTIC: [2] fwrite() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1594 行.
+NOTIC: [2] fclose() expects parameter 1 to be resource, boolean given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1633 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-04-18T14:02:02+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-04-18T14:02:03+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T14:02:07+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-04-18T14:04:20+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-04-18T14:04:21+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T14:04:27+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0038s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-04-18T14:12:00+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-04-18T14:12:01+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T14:12:05+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0031s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: fileselect G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 69 行.
+
+[ 2016-04-18T14:35:51+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-04-18T14:35:52+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T14:35:59+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0028s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 不存在的字体文件：
+
+[ 2016-04-18T14:37:45+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-04-18T14:37:45+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T14:37:49+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0037s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+ERR: 不存在的字体文件：./1.ttf
+
+[ 2016-04-18T14:54:30+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-04-18T14:59:00+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-04-18T14:59:00+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T14:59:04+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0030s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 101 行.
+ERR: 不存在的字体文件：__PUBLIC__Font/glyphicons-halflings-regular.ttf
+
+[ 2016-04-18T14:59:28+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-04-18T14:59:29+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T14:59:33+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0068s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-04-18T15:00:47+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-04-18T15:00:47+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T15:00:52+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0034s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-04-18T15:18:19+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-04-18T15:18:19+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T15:18:24+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0068s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-04-18T15:19:01+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+
+[ 2016-04-18T15:19:02+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T15:19:05+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0064s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-04-18T15:19:16+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-04-18T15:19:17+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T17:18:56+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-04-18T17:18:56+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-04-18T17:18:56+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T17:18:59+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-04-18T17:18:59+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T17:18:59+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-04-18T17:19:06+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-04-18T17:19:06+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-04-18T17:19:06+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T17:19:09+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-04-18T17:19:09+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T17:19:11+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-04-18T17:19:11+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T17:19:50+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0036s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: ext G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 111 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','0','0','','1460971190','1460971190','') [ RunTime:0.0004s ]
+
+[ 2016-04-18T17:27:18+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-04-18T17:27:18+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T17:27:25+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0036s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: ext G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 111 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','0','0','','1460971645','1460971645','') [ RunTime:0.0004s ]
+
+[ 2016-04-18T17:27:31+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0043s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: ext G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 111 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','0','0','','1460971651','1460971651','') [ RunTime:0.0003s ]
+
+[ 2016-04-18T17:29:21+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-04-18T17:29:22+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-18T17:29:29+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: ext G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 111 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','0','0','','1460971769','1460971769','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+

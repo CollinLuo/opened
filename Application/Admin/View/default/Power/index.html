@@ -1,0 +1,164 @@
+<{include file="public/header.html"}>
+<body>
+	<!-- Page Head -->
+	<div id="menu_box">
+    	<h2>Welcome www.cheShop.com</h2>
+    	<p id="page-intro">What would you like to do?</p>
+    		<ul class="shortcut-buttons-set">
+	    		<li><a class="shortcut-button" href="<{$app}>/commodity/index" target="_self"><span> <img src="<{$res}>/images/icons/pencil_48.png" alt="icon" /><br /> 添加新商品 </span></a></li>
+      			<li><a class="shortcut-button" href="<{$app}>/user/add" target="_self"><span> <img src="<{$res}>/images/icons/paper_content_pencil_48.png" alt="icon" /><br /> 添加新会员 </span></a></li>
+      			<li><a class="shortcut-button" href="<{$app}>/image/index" target="_self"><span> <img src="<{$res}>/images/icons/image_add_48.png" alt="icon" /><br /> 上传新图片 </span></a></li>
+      			<li><a class="shortcut-button" href="<{$app}>/advert/index" target="_self"><span> <img src="<{$res}>/images/icons/clock_48.png" alt="icon" /><br /> 广告管理 </span></a></li>
+      			<li><a class="shortcut-button" href="#messages" rel="modal"><span> <img src="<{$res}>/images/icons/comment_48.png" alt="icon" /><br /> 站内信 </span></a></li>
+    		</ul>
+	</div>
+	<!-- End .shortcut-buttons-set -->
+	<div id="main_box">
+		<div class="content-box">
+      		<!-- Start Content Box -->
+      			<div class="content-box-header">
+				<h3>会员管理>权限管理</h3>
+        			<ul class="content-box-tabs">
+          				<li><a href="#tab1" class="default-tab">Table</a></li>
+        			</ul>
+        			<div class="clear"></div>
+      			</div>
+      			<!-- End .content-box-header -->
+      			<div class="content-box-content">
+        			<div class="tab-content default-tab" id="tab1">
+          		<!-- This is the target div. id must match the href of this div's tab -->
+          				<div class="notification attention png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+						<div> 这是一个公告栏。顺便一提,你可以关闭此通知。<br /><{include file="public/clue.html"}>  </div>
+    					</div>
+    					<div class="tab_test">
+						<table align="center" width="100%" style="border:1px dotted silver;">
+							<form action="<{$url}>/index" method="post">
+								<tr border="1">
+									<td colspan="9">
+										<span class="ud_width">用户组:&nbsp;&nbsp;</span>
+										<span>
+											<select name="admin">
+												<option>--请选择--</option>
+												<option value="0" <{if $admin eq 0}>selected<{/if}> >普通会员</option>
+												<option value="1" <{if $admin eq 1}>selected<{/if}> >初级管理员</option>
+												<option value="2" <{if $admin eq 2}>selected<{/if}> >高级管理员</option>
+												<option value="3" <{if $admin eq 3}>selected<{/if}> >超级管理员</option>
+											</select>
+										</span>&nbsp;&nbsp;
+										<span>输入要查找的用户名:&nbsp;<input name="username" type="text" style="width:140px;"  value="<{$post.username}>" />&nbsp;&nbsp;</span>&nbsp;&nbsp;
+										<span><input type="submit" class="button" value="搜索用户"></span>
+									</td>
+								</tr>
+							</form>
+							<form action="<{$url}>/del" method="post">	
+								<tr align="center">
+											<{if $admin eq 1 or $admin eq 2}>
+											<td><a href="javascript:select()">全选</a>/<a href="javascript:fanselect()">反选</a>/<a href="javascript:noselect()">全不选</a></td>
+											<{/if}>
+											<td>编号</td>
+											<td>初级管理员</td>
+											<td>高级管理员</td>
+											<td>超级管理员</td>
+											<td>帐号</td>
+											<td>邮箱</td>
+											<td>注册时间</td>
+											<td>操作</td>
+									</tr>
+										<{section loop=$data name="ls"}>
+										<tr align="center" id="<{if $data[ls].disable eq 1}>bg_fuscous<{/if}>">
+											<{ if $data[ls].admin eq 1 or $data[ls].admin eq 2 }>
+											<td>
+												<input type="checkbox" name="id[]" value="<{$data[ls].id}>">
+											</td>
+											<{/if}>
+											<td><{$data[ls].id}></td>
+											<td><{if $data[ls].admin eq 0}>否<{elseif $data[ls].admin ne 0}>是<{/if}></td>
+											<td><{if $data[ls].admin eq 2}>是<{elseif $data[ls].admin ne 2}>否<{/if}></td>
+											<td><{if $data[ls].admin eq 3}>是<{elseif $data[ls].admin ne 3}>否<{/if}></td>
+											<td><{$data[ls].username}></td>
+											<td><{$data[ls].email}></td>
+											<td><{$data[ls].createtime}></td>
+											<td>
+												<{if $data[ls].admin ne 0}><a href="<{$url}>/mod/id/<{$data[ls].id}>"><b><img src="<{$res}>/images/icons/hammer_screwdriver.png" alt="编辑权限设置" title="编辑权限设置" /></b></a><{elseif $data[ls].admin eq 0}><a onclick="return confirm('你确定要添加<&nbsp;<{$data[ls].username}>&nbsp;>为管理员吗?')" href="<{$url}>/update/id/<{$data[ls].id}>/page/<{$cpage}>"><img src="<{$res}>/images/icons/tick_circle.png" alt="添加为初级管理员" title="添加为初级管理员" /></a><{/if}>
+												<{ if $data[ls].admin eq 2 or $data[ls].admin eq 1}>
+												<a onclick="return confirm('你确定要删除<&nbsp;<{$data[ls].username}>&nbsp;>的管理员权限吗?')" href="<{$url}>/del/id/<{$data[ls].id}>/page/<{$cpage}>"><img src="<{$res}>/images/icons/cross.png" alt="删除管理员权限" title="删除管理员权限" /></a>
+											</td>
+											<{/if}>
+											</tr>
+											<{sectionelse}>
+											<td colspan="<{if $admin eq 1 or $admin eq 2}>9<{elseif $admin eq 3 or $admin eq 0}>8<{/if}>" align="left"><span>用户列表为空!请先创建新用户!</span></td>		
+											<{/section}>
+											<{if $admin eq 1 or $admin eq 2}>
+											<tr align="left">
+												<td colspan="1">&nbsp;<{if $count ne 0}><input  name="button" type="image" title="多选删除管理员权限" value="多选删除管理员权限" src="<{$res}>/images/icons/cross.png" /><{/if}></td><td colspan="<{if $admin eq 1 or $admin eq 2}>8<{elseif $admin eq 3 or $admin eq 0}>7<{/if}>"><font color="red">&nbsp;&nbsp;&nbsp;警告:使用多选删除请谨慎!请不要图一时方便,误删用户数据!</font></td>
+											</tr>
+											<{/if}>
+											<tr align="left">
+												<td colspan="<{if $admin eq 1 or $admin eq 2}>9<{elseif $admin eq 3 or $admin eq 0}>8<{/if}>" align="left"><{$fpage}></td>
+											</tr>
+									</form>
+								</table>		
+					</div>
+  				</div>  
+        			<!-- End #tab1 -->	
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="content-box column-left">
+      		<div class="content-box-header">
+        	<h3>左公告区</h3>
+      		</div>
+      		<!-- End .content-box-header -->
+      		<div class="content-box-content">
+        		<div class="tab-content default-tab">
+          			<h4>Maecenas dignissim</h4>
+          			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in porta lectus. Maecenas dignissim enim quis ipsum mattis aliquet. Maecenas id velit et elit gravida bibendum. Duis nec rutrum lorem. Donec egestas metus a risus euismod ultricies. Maecenas lacinia orci at neque commodo commodo. </p>
+        		</div>
+        		<!-- End #tab3 -->
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="content-box column-right closed-box">
+      		<div class="content-box-header">
+        	<!-- Add the class "closed" to the Content box header to have it closed by default -->
+        		<h3>右公告区</h3>
+      		</div>
+      		<!-- End .content-box-header -->
+      		<div class="content-box-content">
+        		<div class="tab-content default-tab">
+          			<h4>右公告区默认关闭</h4>
+          			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in porta lectus. Maecenas dignissim enim quis ipsum mattis aliquet. Maecenas id velit et elit gravida bibendum. Duis nec rutrum lorem. Donec egestas metus a risus euismod ultricies. Maecenas lacinia orci at neque commodo commodo. </p>
+        		</div>
+        		<!-- End #tab3 -->
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="clear"></div>
+    	<!-- Start Notifications -->
+    	<div class="notification attention png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 注意通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<div class="notification information png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 信息通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<div class="notification success png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 成功的通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<div class="notification error png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 错误的通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<!-- End Notifications -->
+    	<div id="footer"> <small>
+      	<!-- Remove this notice or replace it with whatever you want -->
+      	&#169; Copyright 2012 Your Company | Powered by <a href="http://www.cheshop.com">D.Apache.Luo</a> | <a href="#">Top</a> </small> </div>
+    	<!-- End #footer -->
+  </div>
+  <!-- End #main-content -->
+</div>
+</div>
+</body>
+<{include file="public/footer.html"}>
+

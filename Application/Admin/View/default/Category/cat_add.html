@@ -1,0 +1,169 @@
+<include file="Public:header" />
+<body>
+	<div id="main_box">
+		<div class="content-box">
+      		<!-- Start Content Box -->
+			<div class="content-box-header">
+			<h3>{$navigation_bar}</h3>
+				<ul class="content-box-tabs">
+					<li><a href="#tab1" class="default-tab">Table</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<!-- End .content-box-header -->
+			<div class="content-box-content">
+				<div class="tab-content default-tab" id="tab1">
+					<div class="notification attention png_bg">
+						<div class="close">
+						<a href="#"><img src="__PUBLIC__/Img/Admin/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+						</div>
+						<div> 这是一个公告栏。顺便一提,你可以关闭此通知。<include file="Public:clue" /></div>
+    				</div>
+
+					<div class="u_tab_form">
+						<table align="center" width="100%">
+							<if condition="$act eq 'mAdd'">
+							<form action="{:U('Category/mAdd')}" method="post">
+							<elseif condition="$act eq 'mEdit'" />
+							<form action="{:U('Category/mEdit')}" method="post">
+							<else />
+							<form action="{:U('Category/index')}" method="post">
+							</if>
+								<tr>
+									<th><span class="ud_width">栏目名称:<font color="red">*</font></span></th>
+									<td>
+										<input name="name" type="text"  value="{$cat_info.name}" />
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">关键词:</span></th>
+									<td><input name="keywords" type="text"  value="{$cat_info.keywords}" /></td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">父级栏目:<font color="red">*</font></span></th>
+									<td>
+										<select name="pid">
+											<option value="0">顶级栏目</option>
+											<volist name="p_list" id="val">
+											<option value="{$val.id}" <if condition="$val.id eq $cat_info['pid']">selected="selected"</if>>{$val.name}</option>
+											</volist>
+										</select>&nbsp;&nbsp;栏目采用二维数组模式仅支持两层结构
+									</td>
+								</tr>
+								<!--该功能暂时保留2014-5-30
+								<tr>
+									<th><span class="ud_width">栏目模型:</span></th>
+									<td>
+										<select name="model">
+											<option value="0">实例模型一</option>
+										</select>&nbsp;&nbsp;栏目采用二维数组模式仅支持两层结构
+									</td>
+								</tr>
+								-->
+
+								<tr>
+									<th><span class="ud_width">导航菜单:<font color="red">*</font></span></th>
+									<td>
+										<if condition="$act eq 'mAdd'">
+											<input type="radio" name="is_navigation" value="1" />是
+											<input type="radio" name="is_navigation" value="0" checked />否
+										<else />
+											<if condition="$cat_info.is_navigation eq 1">
+												<input type="radio" name="is_navigation" value="1" checked />是
+												<input type="radio" name="is_navigation" value="0" />否	
+											<else />
+												<input type="radio" name="is_navigation" value="1" />是
+												<input type="radio" name="is_navigation" value="0" checked />否
+											</if>
+										</if>
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">是否启用:<font color="red">*</font></span></th>
+									<td>
+										
+										<if condition="$act eq 'mAdd'">
+											<input type="radio" name="is_open" value="1" checked />启用
+											<input type="radio" name="is_open" value="0" />禁用
+										<else />
+											<if condition="$cat_info.is_open eq 1">
+												<input type="radio" name="is_open" value="1" checked />启用
+												<input type="radio" name="is_open" value="0" />禁用	
+											<else />
+												<input type="radio" name="is_open" value="1" />启用
+												<input type="radio" name="is_open" value="0" checked="checked" />禁用
+											</if>
+										</if>
+									</td>
+								</tr>
+								<!--该功能暂留2014-5-30
+								<tr>
+									<th><span class="ud_width">栏目属性:</span></th>
+									<td>
+										<input type="radio" name="attr" value="1" checked />栏目列表	
+										<input type="radio" name="attr" value="2" />外部链接
+										<input type="radio" name="attr" value="3" />频道封面
+									</td>
+								</tr>
+								-->
+								<tr>
+									<th><span class="ud_width">封面模版:</span></th>
+									<td>
+										<input name="indextpl" type="text"  value="{$cat_info.indextpl}" />
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">列表模版:</span></th>
+									<td>
+										<input name="listtpl" type="text"  value="{$cat_info.listtpl}" />
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">内容模版:</span></th>
+									<td>
+										<input name="articletpl" type="text"  value="{$cat_info.articletpl}" />
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">排序:</span></th>
+									<td><input name="sort" type="text"  value="{$cat_info.sort}" /></td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">栏目简介:</span></th>
+									<td>
+										<textarea name="intro" rows="2" cols="20" id="intro" class="inputtext" style="height: 122px; width: 400px; margin-top: 0px; margin-bottom: 0px;">{$cat_info.intro}</textarea>
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<if condition="$act eq 'mAdd'">
+											<input type="submit" value="添加" />
+										<elseif condition="$act eq 'mEdit'" />
+											<input type="hidden" name='id' value="{$cat_info.id}" />	
+											<input name="submit" type="submit" value="修改" />
+										</if>
+										<input name="reset" type="reset" value="重置" />
+									</td>
+								</tr>
+							</form>	
+						</table>		
+					</div>
+				</div>  
+			<!-- End #tab1 -->	
+			</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->	
+    	<div class="clear"></div>
+    	<div id="footer"> <small>
+      	<!-- Remove this notice or replace it with whatever you want -->
+      	&#169; Copyright 2013 Your Company | Powered by <a href="http://www.cheshop.com">D.Apache.Luo</a> | <a href="#">Top</a> </small> </div>
+    	<!-- End #footer -->
+  </div>
+  <!-- End #main-content -->
+</div>
+</div>
+</body>
+<include file="Public:footer" />
+

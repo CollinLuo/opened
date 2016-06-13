@@ -1,0 +1,670 @@
+[ 2016-04-20T09:30:34+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-04-20T09:30:34+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-04-20T09:30:35+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T09:34:32+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-04-20T09:34:33+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T09:34:33+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-04-20T09:34:41+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-04-20T09:34:41+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-04-20T09:34:41+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T09:34:48+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-04-20T09:34:48+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T09:35:13+08:00 ] ::1 /opened/index.php?m=&c=User&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-04-20T09:35:13+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-04-20T09:35:13+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T09:35:16+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-04-20T09:35:16+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T09:35:16+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-04-20T09:35:38+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-04-20T09:35:39+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-04-20T09:35:39+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T09:35:44+08:00 ] ::1 /opened/index.php?m=&c=User&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-04-20T09:35:44+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-04-20T09:35:44+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T09:35:49+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-04-20T09:35:49+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T09:35:49+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-04-20T09:35:56+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode&random=0.05307511237468732
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-04-20T09:36:00+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-04-20T09:36:00+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-04-20T09:36:00+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T13:49:54+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-04-20T13:49:55+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+
+[ 2016-04-20T13:49:55+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T13:49:58+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-04-20T13:49:58+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-04-20T13:49:58+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T13:50:05+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-04-20T13:50:05+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-04-20T13:50:06+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:00:48+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-04-20T14:00:49+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:01:07+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-04-20T14:01:07+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:01:44+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-04-20T14:01:44+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:05:35+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:17:07+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-04-20T14:17:22+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-04-20T14:20:20+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-04-20T14:22:25+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-04-20T14:24:23+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-04-20T14:24:23+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-04-20T14:24:23+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-04-20T14:24:24+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-04-20T14:25:21+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-04-20T14:25:22+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-04-20T14:25:22+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-04-20T14:25:22+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-04-20T14:25:22+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-04-20T14:25:24+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-04-20T14:25:40+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-04-20T14:25:40+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:26:23+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2016-04-20T14:26:23+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:27:10+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-04-20T14:27:10+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:31:47+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-04-20T14:31:47+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:32:33+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-04-20T14:32:33+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:52:20+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 1054:Unknown column 'ccompany_logo' in 'field list'
+ [ SQL语句 ] : SELECT cu.id,cu.cid,cu.aid,cu.role_id,c.name,c.email,c.phone,c.address,c.website,`ccompany_logo`,c.remark FROM `td_company_user` as cu LEFT JOIN td_company as c ON c.cid = cu.cid  WHERE ( aid = 89005 and c.is_del = 0 and c.status = 1 ) 
+
+[ 2016-04-20T14:52:38+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+ERR: 1052:Column 'aid' in where clause is ambiguous
+ [ SQL语句 ] : SELECT cu.id,cu.cid,cu.aid,cu.role_id,c.name,c.email,c.phone,c.address,c.website,c.company_logo,c.remark FROM `td_company_user` as cu LEFT JOIN td_company as c ON c.cid = cu.cid  WHERE ( aid = 89005 and c.is_del = 0 and c.status = 1 ) 
+
+[ 2016-04-20T14:52:52+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-04-20T14:52:52+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T14:54:43+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-04-20T14:54:43+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T15:00:09+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T15:10:24+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+
+[ 2016-04-20T15:10:24+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T15:14:19+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T15:15:23+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-04-20T15:15:24+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T15:48:39+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-04-20T15:48:39+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:03:23+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:14:11+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-04-20T16:14:11+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:17:27+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+
+[ 2016-04-20T16:17:28+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:17:59+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-04-20T16:17:59+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:28:11+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: Think\Model:getOneUserById方法不存在！
+
+[ 2016-04-20T16:30:27+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `aid`,`username`,`email`,`nickname`,`sex`,`birthday`,`avatar`,`mobile_number`,`qq`,`personal_website`,`remark`,`last_login_time`,`last_login_ip`,`create_time`,`login_count`,`login_error_log` FROM `td_admin` WHERE ( id=89005 and is_del = 0 and status = 1 ) LIMIT 1  
+
+[ 2016-04-20T16:31:06+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-04-20T16:31:06+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:36:18+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-04-20T16:36:18+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:37:02+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+
+[ 2016-04-20T16:37:02+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:38:31+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-04-20T16:38:32+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:46:01+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-04-20T16:46:02+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:46:03+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-04-20T16:46:03+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:47:07+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-04-20T16:47:07+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:56:03+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-04-20T16:56:03+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:58:48+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-04-20T16:58:48+08:00 ] ::1 /opened/Uploads/Common/avatar_big/user100_1481.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-04-20T16:58:48+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T16:58:48+08:00 ] ::1 /opened/Uploads/Common/avatar_big/user100_1481.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-04-20T16:59:09+08:00 ] ::1 /opened/Uploads/Common/avatar_big/user100_1481.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-04-20T17:02:28+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-04-20T17:02:28+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T17:03:55+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 1054:Unknown column 'decription' in 'field list'
+ [ SQL语句 ] : SELECT `aid`,`username`,`email`,`nickname`,`sex`,`birthday`,`avatar`,`mobile_number`,`qq`,`personal_website`,`decription`,`remark`,`last_login_time`,`last_login_ip`,`create_time`,`login_count`,`login_error_log` FROM `td_admin` WHERE ( aid=89005 and is_del = 0 and status = 1 ) LIMIT 1  
+
+[ 2016-04-20T17:04:25+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-04-20T17:04:25+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T17:07:15+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-04-20T17:07:15+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-20T17:08:13+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-04-20T17:08:13+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载控制器:Public
+

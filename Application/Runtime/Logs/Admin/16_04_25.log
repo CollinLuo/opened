@@ -1,0 +1,315 @@
+[ 2016-04-25T09:43:59+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-04-25T14:36:57+08:00 ] ::1 /opened/td_admin_system.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-04-25T14:36:58+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Public&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-04-25T14:37:02+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Public&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-04-25T14:37:04+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-04-25T14:37:04+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+
+[ 2016-04-25T14:37:05+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-04-25T14:37:05+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-04-25T14:37:17+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Finance&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-04-25T14:37:20+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-04-25T14:37:28+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=mAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-04-25T14:37:36+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=ajax_check_name
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `td_project` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `td_project_user` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `td_company` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `td_role` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_project` WHERE ( name = '视觉识别系统修改' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-25T14:45:42+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=mAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-04-25T14:45:43+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+
+[ 2016-04-25T14:46:21+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-04-25T14:46:59+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2016-04-25T14:47:11+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2016-04-25T14:47:13+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-04-25T14:48:01+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=ajax_check_name
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `td_project` [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `td_project_user` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `td_company` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `td_role` [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `td_business` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_business` WHERE ( name = '视觉识别业务一' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-04-25T14:48:07+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=ajax_check_name
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `td_project` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `td_project_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `td_company` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `td_role` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `td_business` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_business` WHERE ( name = '视觉识别业务一' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-25T14:48:36+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-04-25T14:48:37+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-04-25T14:48:42+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-04-25T14:48:49+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=ajax_check_name
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `td_project` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `td_project_user` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `td_company` [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `td_role` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `td_business` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_business` WHERE ( name = '视觉识别业务二' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-25T14:49:10+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-04-25T14:49:11+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-04-25T14:49:14+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-04-25T14:49:19+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=ajax_check_name
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `td_project` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `td_project_user` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `td_company` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `td_role` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `td_business` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_business` WHERE ( name = '视觉识别业务三' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-25T14:49:48+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-04-25T14:49:49+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001263s ]
+
+[ 2016-04-25T14:50:43+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-04-25T14:50:49+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=mProjectMember&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2016-04-25T14:51:19+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=ajax_add_project_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `td_project` [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `td_project_user` [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `td_company` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `td_role` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_project_user` WHERE ( pid = 3 and aid = 89005 and role_id = 11 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_project_user` (`pid`,`role_id`,`aid`) VALUES ('3','11','89005') [ RunTime:0.0004s ]
+
+[ 2016-04-25T14:51:24+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=ajax_add_project_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `td_project` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `td_project_user` [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `td_company` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `td_role` [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_project_user` WHERE ( pid = 3 and aid = 89004 and role_id = 11 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_project_user` (`pid`,`role_id`,`aid`) VALUES ('3','11','89004') [ RunTime:0.0004s ]
+
+[ 2016-04-25T14:51:34+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=ajax_add_project_user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `td_project` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `td_project_user` [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `td_company` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `td_admin` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `td_role` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `td_role_user` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_project_user` WHERE ( pid = 3 and aid = 89011 and role_id = 12 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_project_user` (`pid`,`role_id`,`aid`) VALUES ('3','12','89011') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_project_user` WHERE ( pid = 3 and aid = 88997 and role_id = 12 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_project_user` (`pid`,`role_id`,`aid`) VALUES ('3','12','88997') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_project_user` WHERE ( pid = 3 and aid = 89012 and role_id = 12 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_project_user` (`pid`,`role_id`,`aid`) VALUES ('3','12','89012') [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `td_project_user` WHERE ( pid = 3 and aid = 89000 and role_id = 12 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_project_user` (`pid`,`role_id`,`aid`) VALUES ('3','12','89000') [ RunTime:0.0003s ]
+
+[ 2016-04-25T14:51:40+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-04-25T14:51:49+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=mMeetingManager&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-04-25T14:52:00+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=mAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-04-25T14:52:03+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=mAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-04-25T14:52:07+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-04-25T14:55:55+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-04-25T15:34:51+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+

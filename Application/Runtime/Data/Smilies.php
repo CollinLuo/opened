@@ -1,0 +1,1 @@
+a:22:{i:0;s:5:"arrow";i:1;s:7:"biggrin";i:2;s:8:"confused";i:3;s:4:"cool";i:4;s:3:"cry";i:5;s:3:"eek";i:6;s:4:"evil";i:7;s:7:"exclaim";i:8;s:4:"idea";i:9;s:3:"lol";i:10;s:3:"mad";i:11;s:7:"mrgreen";i:12;s:7:"neutral";i:13;s:8:"question";i:14;s:4:"razz";i:15;s:7:"redface";i:16;s:8:"rolleyes";i:17;s:3:"sad";i:18;s:5:"smile";i:19;s:9:"surprised";i:20;s:7:"twisted";i:21;s:4:"wink";}

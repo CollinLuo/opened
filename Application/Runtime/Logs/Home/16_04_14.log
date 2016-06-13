@@ -1,0 +1,455 @@
+[ 2016-04-14T21:58:57+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+
+[ 2016-04-14T21:58:58+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-04-14T21:58:58+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T21:59:00+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-04-14T21:59:02+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T21:59:02+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-04-14T21:59:12+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-04-14T21:59:12+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-04-14T21:59:12+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T21:59:16+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-04-14T21:59:16+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T21:59:18+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+
+[ 2016-04-14T21:59:20+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:01:49+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+
+[ 2016-04-14T22:01:49+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:31:00+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-04-14T22:31:00+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:32:32+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-04-14T22:32:33+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:32:48+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-04-14T22:32:49+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:33:26+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-04-14T22:33:26+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:34:03+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-04-14T22:34:05+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:34:14+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-04-14T22:34:14+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:41:49+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-04-14T22:41:50+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:42:30+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-04-14T22:42:30+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:42:52+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-04-14T22:42:52+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:43:53+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-04-14T22:43:53+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:44:37+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-04-14T22:44:38+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:45:09+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-04-14T22:45:10+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:46:38+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-04-14T22:46:38+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:46:51+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-04-14T22:46:52+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:47:18+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-04-14T22:47:19+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:48:39+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-04-14T22:48:39+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:48:49+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+
+[ 2016-04-14T22:48:52+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:48:52+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-04-14T22:48:52+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:53:50+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-04-14T22:53:51+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T22:54:22+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-04-14T22:54:22+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:03:48+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+
+[ 2016-04-14T23:03:48+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:04:25+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-04-14T23:04:25+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:04:41+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+
+[ 2016-04-14T23:04:41+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:06:22+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-04-14T23:06:22+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:06:26+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-04-14T23:06:26+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:07:50+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-04-14T23:07:50+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:12:01+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+
+[ 2016-04-14T23:12:01+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:14:07+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-04-14T23:14:07+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:18:58+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-04-14T23:18:58+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:20:47+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-04-14T23:20:47+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:25:05+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-04-14T23:25:05+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:25:30+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-04-14T23:25:30+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:26:47+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-04-14T23:26:47+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-14T23:51:25+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-04-14T23:51:26+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+ERR: 无法加载控制器:Public
+

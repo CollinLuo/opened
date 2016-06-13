@@ -1,0 +1,113 @@
+<include file="Public:header" />
+<body>
+	<!-- End .shortcut-buttons-set -->
+	<div id="main_box">
+		<div class="content-box">
+      		<!-- Start Content Box -->
+      			<div class="content-box-header">
+				<h3>{$navigation_bar}</h3>
+        			<ul class="content-box-tabs">
+          				<li><a href="#tab1" class="default-tab">权限设置</a></li>
+        			</ul>
+        			<div class="clear"></div>
+      			</div>
+      			<!-- End .content-box-header -->
+      			<div class="content-box-content">
+					
+				<!--Start #tab2-->
+				<div class="tab-content default-tab" id="tab1">
+					<div class="notification attention png_bg">
+						<div class="close">
+						<a href="#"><img src="__PUBLIC__/Img/Admin/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+						</div>
+						<div> 这是一个公告栏。顺便一提,你可以关闭此通知。<include file="Public:clue" /></div>
+    				</div>
+					<div class="tab_list" id="node_box">
+						<form class="node_box_form" action="{:U('Access/mRoleAuthorization')}" method="post">
+						<table>
+							<tbody>
+								<volist name="list[0]['childrens']" id="val" empty="$list_empty">
+								<tr>
+									<td width="18%" valign="top" class="first-cell">
+										<div>
+											<label class="font-bold" for="id_node_s_{$val.id}"><input name="action_code[]" type="checkbox" id="id_node_s_{$val.id}" value="{$val.id}"		onclick="partSelect('{$val.id}');" class="checkbox p_node_s_{$val.id}" <if condition="$val.is_executive_power eq 1">checked='true'</if> />&nbsp;&nbsp;&nbsp;{$val.title}
+											</label>
+										</div>
+									</td>
+									<td>
+										<volist name="val['childrens']" id="va">
+											<div style="width:200px;float:left;">
+											<label for="id_node_s_{$va.id}"><input type="checkbox" name="action_code[]" value="{$va.id}" id="id_node_s_{$va.id}" class="checkbox node_s_{$va.id}" onclick="singleSelect('{$va.id}', '{$val.id}')" title="{$va.name}" <if condition="$va.is_executive_power eq 1">checked='true'</if> />
+											{$va.title}</label>
+											</div>
+										</volist>
+									</td>
+								</tr>
+								</volist>
+								<tr>
+									<td align="center" colspan="2" class="td_center" >
+										<input type="hidden" name="id" value="{$id}" />
+										<input type="checkbox" name="checkall" value="allSelect" onclick="allSelect($(this));" class="checkbox" /><span class='node_s_all'>全选</span>
+										&nbsp;&nbsp;&nbsp;&nbsp;
+										<input type="submit" name="Submit" value="保存" class="button" />
+									</td>
+								</tr>						
+							</tbody>	
+						</table>
+						</form>
+					</div>
+				</div> 	
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	
+    	<div class="clear"></div>
+    	
+    	<div id="footer"> <small>
+      	<!-- Remove this notice or replace it with whatever you want -->
+      	&#169; Copyright 2013 Your Company | Powered by <a href="http://www.trydemo.net">D.Apache.Luo</a> | <a href="#">Top</a> </small></div>
+    	<!-- End #footer -->
+  </div>
+  <!-- End #main-content -->
+</div>
+</div>
+</body>
+<include file="Public:footer" />
+
+<script type="text/javascript">
+	//部分选中
+	function partSelect(id){
+		if(id){
+			var c_box = $('#id_node_s_'+id).parent().parent().parent().next();
+			if($('#id_node_s_'+id).prop('checked') == true){
+				c_box.find('input[type=checkbox]').prop('checked',true);
+			}else{	
+				c_box.find('input[type=checkbox]').prop('checked',false);
+			}	
+		}		
+	}
+
+	//单个选中
+	function singleSelect(id,pid){
+		if(id && pid){
+			if($("#id_node_s_"+id).is(':checked') == true){
+				if($("#id_node_s_"+pid).is(':checked') == false){
+					$("#id_node_s_"+pid).prop('checked',true);
+				}
+			}
+		}
+	}
+
+	//全选
+	function allSelect(obj){
+		if(obj.prop('checked') == true){
+			$('#node_box :checkbox').prop('checked',true);
+			$('#node_box').find('span.node_s_all').text('全不选');
+		}else{
+			$('#node_box :checkbox').prop('checked',false);
+			$('#node_box').find('span.node_s_all').text('全选');
+		}
+	}
+
+</script>

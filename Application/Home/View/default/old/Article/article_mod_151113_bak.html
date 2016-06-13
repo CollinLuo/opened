@@ -1,0 +1,162 @@
+<div id="primary" class="site-content">
+		
+	<div class="article_content">
+		<div class="entry-header">
+			<h1 class="entry-title">
+				<a href="__APP__/Home/blog/id/{$article_info.id}" title="{$vo.title}" rel="bookmark">{$article_info.title}</a>
+			</h1>
+		</div>
+		
+		<div class="entry-content">{$article_info.content}</div>
+		
+		<div class="entry-meta">
+			发布于 <a href="__APP__/Home/tag/t/{$article_info.pubtime2}" title="{$article_info.pubtime2}" rel="bookmark"><span class="entry-date" datetime="{$article_info.release_time}">{$article_info.release_time}</span></a>。 属于 <a href="__APP__/Home/category/id/{$article_info.cid}" title="查看 {$category_info.name}中的全部文章" rel="category">{$category_info.name}</a> 分类，
+			被贴了<volist name="article_info.tags" id="vo">
+			<if condition="$key eq '0'">
+				&nbsp;<a href="__APP__/Home/tag/tag/{$vo}" rel="tag">{$vo}</a>
+			<else/>
+				- <a href="__APP__/Home/tag/tag/{$vo}" rel="tag">{$vo}</a>
+			</if>					
+			</volist> 标签
+		</div>
+	</div>
+		
+	<div class="nav-single">
+		<div class="prev">上一篇：{$pre}</div>
+		<div class="prev">下一篇：{$next}</div>
+	</div>
+		
+	<div id="comments" class="comments-area">
+		<div class="c_list_box">
+			<h2 class="comments-title">
+				<if condition="$count gt 0">
+				<span>《{$article_info.title}》上有 <font color="red">{$count}</font> 条评论!</span>
+				<else/>
+				<span>《{$article_info.title}》上暂无评论!</span>
+				</if>
+			</h2>
+			<ol class="repliedlist" id="comments_display_area">
+				<volist name="article_info.comment" id="vo">
+				<li class="comment" id="li-comment-{$vo.cid}" cbp="{$vo.cid}">
+					<div id="comment-{$vo.cid}" class="replied_box">
+						<div class="replied_left">
+							<img src='__ROOT__/Uploads/Common/avatar_small/{$vo.comment_author_face}' class='photo' height='44' width='44'/>
+						</div>
+						<div class="replied_right">
+							<div class="replied_username">
+								<strong><a><b>{$vo.comment_author_name}&nbsp;:</b></a></strong>
+							</div>
+							<div class="replied_content">{$vo.comment_content}</div>
+							<div class="replied_time" style="margin-bottom:10px;">
+								<span>{$vo.comment_edit_date}</span>
+								<span class="reply">
+									<a onclick="return addComment.moveForm('comment-{$vo.cid}', '{$vo.cid}', '{$vo.comment_author_name}', '{$vo.comment_best_parent}', '{$article_info.id}', 0)" href="__SELF__">[回复]</a>
+								</span>
+								
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+				</li>
+				<!-- 子回复 start -->
+				<volist name="vo['subset_reply']" id="v">
+				<li class="comment comment_children" id="li-comment-{$v.cid}" cbp="{$v.comment_best_parent}">
+					<div id="comment-{$v.cid}" class="replied_box">
+						<div class="replied_left">
+							<img src='__ROOT__/Uploads/Common/avatar_small/{$v.comment_author_face}' class='photo' height='44' width='44'/>
+						</div>
+						<div class="replied_right">
+							<div class="replied_username">
+								<!-- 2014-5-7 前端逻辑判断<strong><if condition="($v.comment_best_parent gt 0) OR ($v.comment_parent gt 0)"><if condition="$v.sub_marking">{$v.sub_marking}<else />{$v.comment_author_name}:</if><else />{$v.comment_author_name}:</if></strong>-->
+								<strong>{$v.sub_marking}</strong>
+							</div>
+							<div class="replied_content">{$v.comment_content}</div>
+							<div class="replied_time" style="margin-bottom:10px;">
+								<span>{$v.comment_edit_date}</span>
+								<span class="reply">
+									<a onclick="return addComment.moveForm('comment-{$v.cid}', '{$v.cid}', '{$v.comment_author_name}', '{$v.comment_best_parent}', '{$article_info.id}', 0)" href="__SELF__">[回复]</a>
+								</span>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+				</li>
+				<!-- 子回复 end -->
+				</volist>
+				<!-- 显示更多子回复 start -->
+				<if condition="$vo.subset_count gt 5">
+				<li class="comment comment_children" cbp="{$v.comment_best_parent}">
+					<div class="replied_box">
+						<div class="replied_show_more_left">
+							<p class="re_r_m_count"><span>还有{$vo['subset_count']-5}条回复，</span><a href="javascript:void();" class="re_s_m_check">点击查看</a></p>
+						</div>
+						<div class="replied_show_more_right">
+							<a class="re_s_m_btn" href="javascript:void()" onclick="return addComment.moveForm('comment-{$vo.cid}', '{$vo.cid}', '{$vo.comment_author_name}', '{$vo.comment_best_parent}', '{$article_info.id}', 0)" href="__SELF__">
+							<i class="icon-reply"></i>
+							我也说一句
+							</a>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+				</li>
+				<!-- 显示更多子回复 end -->				
+				</if>
+				</volist>
+			</ol>
+		</div>
+		<div class="comment_page">
+			<div class="page_quotes" style="float:right;">{$page}</div>
+			<div class="clear"></div>
+		</div>
+		<div id="td_respond_box">
+			<div id="respond">
+				<div class="respond_box"> <!--完美解决ie6textarea兼容问题-->
+					<h3 id="reply-title">发表评论</h3>
+					<div class="cancel-comment-reply">
+						<small><a rel="nofollow" id="cancel-comment-reply-link" href="__SELF__" style="display:none;">点击这里取消回复或者编辑</a></small>
+					</div>
+					<form action="__APP__/Comment" method="post" id="commentform">
+						<p class="old_user_box">
+							<span>欢迎回来</span> 
+							<strong>我是测试员</strong>
+							<a id="toggle-comment-author-info" href="javascript:toggleCommentAuthorInfo();">[ 隐藏 ]</a>
+						</p>
+						<p class="comment-form-author">姓　　名：<input class="r_i_text" id="uname" name="uname" type="text" size="30" /></p>
+						<p class="comment-form-email">电子邮件：<input class="r_i_text" id="email" name="email" type="text" size="100" /></p>
+						<p class="comment-form-url">互粉站点：<input class="r_i_text" id="site" name="site" value="" type="text" size="100" /></p>
+						
+						<div class="comt-box">
+							<fieldset><textarea name="comment_content" id="c_comment" class="comt-area" tabindex="4" cols="50" rows="5" onkeyup="keyups.onstr(this)"></textarea></fieldset>
+							<div id="c_loading" style="display:none;"><img src="__ROOT__/Public/Img/Common/loading.gif" style="vertical-align:middle;" alt="" /> 正在提交, 请稍候...</div>
+							<div style="display:none;" id="c_error"><img src="__ROOT__/Public/Img/Common/no.png" style="vertical-align:middle;" alt="" /><span></span></div>
+							<div class="comt-ctrl">
+								<div class="comt-addsmilies">
+									<a href="javascript:;">表情</a>
+									<input id='ar_smilies_arr_info' type='hidden' name='smilies_arr' value='{$smilies_arr}' />
+								</div>
+								<div class="comt-smilies">
+									<a title="mrgreen" href="javascript:grin(':mrgreen:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_mrgreen.gif"></a><a title="razz" href="javascript:grin(':razz:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_razz.gif"></a><a title="sad" href="javascript:grin(':sad:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_sad.gif"></a><a title="smile" href="javascript:grin(':smile:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_smile.gif"></a><a title="redface" href="javascript:grin(':redface:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_redface.gif"></a><a title="biggrin" href="javascript:grin(':biggrin:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_biggrin.gif"></a><a title="eek" href="javascript:grin(':eek:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_surprised.gif"></a><a title="confused" href="javascript:grin(':confused:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_confused.gif"></a><a title="cool" href="javascript:grin(':cool:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_cool.gif"></a><a title="lol" href="javascript:grin(':lol:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_lol.gif"></a><a title="mad" href="javascript:grin(':mad:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_mad.gif"></a><a title="twisted" href="javascript:grin(':twisted:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_twisted.gif"></a><a title="rolleyes" href="javascript:grin(':rolleyes:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_rolleyes.gif"></a><a title="wink" href="javascript:grin(':wink:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_wink.gif"></a><a title="idea" href="javascript:grin(':idea:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_idea.gif"></a><a title="arrow" href="javascript:grin(':arrow:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_arrow.gif"></a><a title="neutral" href="javascript:grin(':neutral:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_neutral.gif"></a><a title="cry" href="javascript:grin(':cry:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_cry.gif"></a><a title="question" href="javascript:grin(':question:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_question.gif"></a><a title="evil" href="javascript:grin(':evil:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_evil.gif"></a><a title="shock" href="javascript:grin(':shock:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_eek.gif"></a><a title="exclaim" href="javascript:grin(':exclaim:')"><img src="__ROOT__/Public/Img/Common/smilies/icon_exclaim.gif"></a>
+								</div>
+								<div class="comt_s_box">
+									<span id="com_r_hint" class="comt-num"><font>还能输入<em>240</em>个字</font></span>
+									<input class="comt-submit" name="submit" id="submit" tabindex="5" value="发布评论" type="submit">
+									<input name="aid" value="{$article_info.id}" id="c_article_id" type="hidden" />
+									<input name="comment_parent" id="comment_parent" value="0" type="hidden" />
+									<input name="comment_parent_author_name" id="comment_parent_author_name" value="" type="hidden" />
+									<input name="c_best_parent" id="c_best_parent" value="0" type="hidden" />
+									<!-- 暂未启用 2014-5-12 <input name="c_edit_id" id="c_edit_id" value="0" type="hidden" />-->
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	var root = "__ROOT__";
+</script>

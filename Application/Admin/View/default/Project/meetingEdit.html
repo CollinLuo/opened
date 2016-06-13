@@ -1,0 +1,164 @@
+<include file="Public:header" />
+<body>
+	<script type="text/javascript" src="__PUBLIC__/Js/Common/My97DatePicker/WdatePicker.js"></script>
+	<!-- End .shortcut-buttons-set -->
+	<div id="main_box">
+		<div class="content-box">
+      		<!-- Start Content Box -->
+			<div class="content-box-header">
+				<h3>{$navigation_bar}</h3>
+				<ul class="content-box-tabs">
+					<li><a href="#tab2" class="default-tab">编辑会议记录</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<!-- End .content-box-header -->
+			<div class="content-box-content">	
+				<!--Start #tab2-->
+				<div class="tab-content default-tab" id="tab2">
+          			<form action="{:U('Project/mMeetingEdit','id='.$info['pid'])}" id="meeting_minute_form_edit" method="post" onsubmit="return addValidate()">
+						<fieldset>
+							<p>
+								<label>会议主题:</label>
+								<input class="text-input small-input" type="text" id="meeting_topic" onblur="checkName($(this))" name="meeting_topic" value="{$info.meeting_topic}" />
+								<span id="meeting_topic_msg" check_flag="1" class="input-notification attention png_bg">请输入合适的会议主题！</span>
+								<!-- Classes for input-notification: success, error, information, attention -->
+								<br />
+								<small>请输入合适的会议主题！可以使用中文，但禁止除[@][.]以外的特殊符号</small> 
+							</p>
+							<p>
+								<label>会议地址:</label>
+								<input class="text-input small-input" type="text" id="address" name="address" value="{$info.address}" />
+								<span class="input-notification optional png_bg">选填项</span>
+								<!-- Classes for input-notification: success, error, information, attention, optional -->
+								<br />
+								<small>请输入会议地址！</small> 
+							</p>
+							<p>
+								<label>会议记录人:</label>
+								<input class="text-input small-input" type="text" id="meeting_noter" name="meeting_noter" value="{$info.meeting_noter}" />
+								<span class="input-notification optional png_bg">选填项</span>
+								<!-- Classes for input-notification: success, error, information, attention, optional -->
+								<br />
+								<small>请输入会议记录人！</small> 
+							</p>
+							<p>
+								<label>会议参与者:</label>
+								<input class="text-input small-input" type="text" id="meeting_organizers" name="meeting_organizers" value="{$info.meeting_organizers}" />
+								<span class="input-notification optional png_bg">选填项</span>
+								<!-- Classes for input-notification: success, error, information, attention, optional -->
+								<br />
+								<small>请输入会议参与者！</small> 
+							</p>
+							<p>
+								<label>会议执行者:</label>
+								<input class="text-input small-input" type="text" id="executor" name="executor" value="{$info.executor}" />
+								<span class="input-notification optional png_bg">选填项</span>
+								<!-- Classes for input-notification: success, error, information, attention, optional -->
+								<br />
+								<small>请输入会议执行者！</small> 
+							</p>
+							<p>
+								<label>开始时间:</label>
+								<input class="input-date-selection small-input" type="text" id="start_time" name="start_time" value="{$info.start_time}" onclick="WdatePicker({lang:'zh-cn',dateFmt:'yyyy-MM-dd HH:mm:ss'})" />
+								<span class="input-notification optional png_bg">选填项</span>
+								<!-- Classes for input-notification: success, error, information, attention, optional -->
+								<br />
+								<small>请选择开始时间！</small> 
+							</p>
+							<p>
+								<label>结束时间:</label>
+								<input class="small-input input-date-selection" type="text" id="end_time" name="end_time" value="{$info.end_time}"  onclick="WdatePicker({lang:'zh-cn',dateFmt:'yyyy-MM-dd HH:mm:ss'})" />
+								<span class="input-notification optional png_bg">选填项</span>
+								<!-- Classes for input-notification: success, error, information, attention, optional -->
+								<br />
+								<small>请选择结束时间！</small> 
+							</p>
+							<p>
+								<label>是否审核通过:</label>
+								<input type="radio" name="status" value="0" />禁用&nbsp;&nbsp;&nbsp;&nbsp;
+								<input type="radio" name="status" value="1" checked="checked" />启用 
+							</p>
+							<p>
+								<label>会议内容:</label>
+								<textarea class="text-input textarea wysiwyg" name="content" cols="79" rows="10">{$info.content}</textarea>
+							</p>
+							<p>
+								<label>会议备注:</label>
+								<textarea class="text-input textarea wysiwyg" name="remark" cols="79" rows="5">{$info.remark}</textarea>
+							</p>
+							<p>
+								<input type="hidden" name="id" value="{$info.id}">
+								<input type="hidden" name="pid" value="{$info.pid}">
+								<input class="button" type="submit" value="提交" />
+								<input name="reset" type="reset" value="重置" />
+							</p>
+						</fieldset>
+						<div class="clear"></div>
+						<!-- End .clear -->
+          			</form>
+        		</div>
+        		<!-- End #tab2 -->
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="clear"></div>
+    	<div id="footer"> <small>
+      	<!-- Remove this notice or replace it with whatever you want -->
+      	&#169; Copyright 2013 Your Company | Powered by <a href="http://www.trydemo.net">D.Apache.Luo</a> | <a href="#">Top</a> </small> </div>
+    	<!-- End #footer -->
+  </div>
+  <!-- End #main-content -->
+</div>
+</div>
+</body>
+<include file="Public:footer" />
+
+
+<script type="text/javascript">
+
+	function checkName(obj){
+		var mm_name = $('#meeting_topic');
+		var mm_name_msg = $("#meeting_topic_msg");
+		var name = $.trim(mm_name.val());
+		var msg = '';
+		if(!name.length){
+			msg = '会议主题不能为空！\n';
+			mm_name_msg.show();
+			mm_name_msg.removeClass("error");
+			mm_name_msg.addClass("success");
+			mm_name_msg.text(msg);
+		}else{
+			mm_name_msg.show();
+			mm_name_msg.removeClass("error");
+			mm_name_msg.addClass("success");
+			mm_name_msg.text('会议主题输入正确！');
+		}
+	}
+
+	//表单提交验证
+	function addValidate(){
+		var flag = true;
+		var msg = '';
+		var name = $.trim($('#meeting_topic').val());
+		var obj = $("#meeting_topic_msg");
+		
+		if(!name.length){
+			msg += '会议主题不能为空！\n';
+			flag = false;
+			obj.show();
+			obj.removeClass("success");
+			obj.addClass("error");
+			obj.text(msg);
+		}
+
+		if(!flag){
+			alert(msg);
+			//调用屏幕抖动效果
+			addLoadEvent(function(){ var p=new Array(15,30,15,0,-15,-30,-15,0);p=p.concat(p.concat(p));var i=document.forms[0].id;g(i).position='relative';shake(i,p,20);});
+		}
+		return flag;
+	}
+	
+</script>

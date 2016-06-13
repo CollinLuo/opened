@@ -1,0 +1,180 @@
+[ 2016-04-26T09:23:22+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-04-26T09:23:24+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Public&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2016-04-26T09:23:27+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Public&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-04-26T09:23:29+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-04-26T09:23:29+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-04-26T09:23:30+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-04-26T09:23:30+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+
+[ 2016-04-26T09:23:32+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-04-26T09:23:36+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
+[ 2016-04-26T09:27:09+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-04-26T09:27:13+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mBusinessDetails&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2016-04-26T09:27:20+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+
+[ 2016-04-26T09:27:23+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mBusinessDetails&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-04-26T09:27:45+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mBusinessDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-04-26T09:27:46+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-04-26T09:32:30+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-04-26T09:32:33+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Project&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-04-26T09:32:35+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+
+[ 2016-04-26T09:32:40+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-04-26T09:32:42+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mBusinessDetails&id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-04-26T09:32:45+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-04-26T09:32:47+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=mBusinessDetails&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-04-26T13:26:17+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-04-26T13:26:18+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Public&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-04-26T13:26:21+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Public&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-04-26T13:26:22+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-04-26T21:39:04+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2016-04-26T21:39:06+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Public&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-04-26T21:39:21+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Public&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2016-04-26T21:39:22+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-04-26T21:39:22+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-04-26T21:39:22+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+
+[ 2016-04-26T21:39:23+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=nav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-04-26T21:39:23+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Index&a=main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-04-26T21:39:36+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-04-26T21:46:51+08:00 ] ::1 /opened/td_admin_system.php?m=Admin&c=Business&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+

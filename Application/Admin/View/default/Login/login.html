@@ -1,0 +1,60 @@
+<include file="Common:header" />
+<body id="login">
+<div id="login-wrapper" class="png_bg">
+  <div id="login-top">
+    <h1>Opened Admin</h1>
+    <!-- Logo (221px width) -->
+    <a href="http://www.trydemo.net"><img id="logo" src="__PUBLIC__/Img/Admin/logo.png" alt="Opened Admin logo" /></a> </div>
+  <!-- End #logn-top -->
+  <div id="login-content">
+	  <form action="{:U('Public/index')}" method="post" onsubmit="return checkForm()">
+      <div class="notification information png_bg">
+        <div> 点击"记住选项".下次登录无须密码轻松登录. </div>
+      </div>
+      <p>
+        <label>用户名:</label>
+        <input id="username" class="text-input" type="text" name="username" />
+      </p>
+      <div class="clear"></div>
+      <p>
+        <label>密&nbsp;&nbsp;&nbsp;码:</label>
+        <input id="pwd" class="text-input" type="password" name="pwd" />
+      </p>
+      <div class="clear"></div>
+      <p id="remember-password">
+        <input type="checkbox" value="1" />
+        记住选项 </p>
+      <div class="clear"></div>
+      <p>
+        <input class="button submit" type="submit" value="登录" />
+      </p>
+	  
+    </form>
+  </div>
+  <!-- End #login-content -->
+</div>
+<!-- End #login-wrapper -->
+</body>
+<include file="Common:footer" />
+
+<script type="text/javascript">
+
+	//登录表单提交
+	function checkForm(){
+		//暂不开放密码找回默认置为登录模式
+		$("#op_type").val("1");
+		var flag = true;
+		var msg = '';
+		if($("#username").val()==''||$("#pwd").val()==''){
+			flag = false;
+			msg += '填写完整方可登录！\n';
+		}
+		if(!flag){
+			alert(msg);
+			return false;
+		}
+		return true;
+	}
+		
+</script>
+

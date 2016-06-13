@@ -1,0 +1,15 @@
+[ 2016-05-18T12:12:16+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033010s ]
+
+[ 2016-05-18T12:12:19+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-05-18T12:12:20+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+

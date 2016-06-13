@@ -1,0 +1,863 @@
+[ 2016-04-19T08:56:17+08:00 ] ::1 /opened/index.php?m=&c=User&a=logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-04-19T08:56:17+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-04-19T08:56:17+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T08:56:19+08:00 ] ::1 /opened/index.php?m=&c=User&a=registerAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-04-19T08:56:19+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T08:56:29+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-04-19T08:56:29+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T08:56:29+08:00 ] ::1 /opened/index.php?m=&c=User&a=creatVerifyCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-04-19T08:56:37+08:00 ] ::1 /opened/index.php?m=&c=User&a=loginAct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-04-19T08:56:38+08:00 ] ::1 /opened/index.php?m=&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-04-19T08:56:38+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T08:56:40+08:00 ] ::1 /opened/index.php?m=&c=User&a=uCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-04-19T08:56:40+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T08:56:43+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-04-19T08:56:44+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T08:56:56+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0037s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: ext G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 111 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','0','0','','1461027416','1461027416','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T08:57:01+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0043s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: ext G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 111 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','0','0','','1461027421','1461027421','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T08:59:12+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-04-19T08:59:12+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T08:59:17+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0038s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: ext G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 111 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','0','0','','1461027557','1461027557','') [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:00:32+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-04-19T09:00:33+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:00:37+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0036s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','4','0','','1461027637','1461027637','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:00:47+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0035s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:02:18+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-04-19T09:02:18+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:02:22+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','4','0','','1461027742','1461027742','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:02:53+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-04-19T09:02:54+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:02:59+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0049s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','4','0','','1461027779','1461027779','') [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:06:53+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-04-19T09:06:54+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:06:57+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0051s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','4','0','','1461028017','1461028017','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:07:09+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:30:35+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-04-19T09:30:36+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:31:11+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-04-19T09:31:11+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:31:21+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0053s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','1','0','','1461029481','1461029481','') [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:32:18+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0037s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','11','0','','1461029538','1461029538','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:33:41+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-04-19T09:33:41+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:34:44+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-04-19T09:34:44+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:36:02+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-04-19T09:36:02+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:36:09+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0045s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','4','0','','1461029768','1461029768','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:38:40+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-04-19T09:38:41+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:39:23+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-04-19T09:39:23+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:40:07+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-04-19T09:40:07+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T09:40:12+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0056s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','4','0','','1461030012','1461030012','') [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T09:45:16+08:00 ] ::1 /opened/index.php?m=&c=Project&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-04-19T09:45:16+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:25:09+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-04-19T10:25:10+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:25:14+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0043s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','4','0','','1461032714','1461032714','') [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:25:43+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-04-19T10:25:44+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:27:57+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001599s ]
+
+[ 2016-04-19T10:27:57+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:28:00+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0059s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','4','0','','1461032880','1461032880','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:29:20+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-04-19T10:29:20+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:29:23+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0072s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','4','0','','1461032963','1461032963','') [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:29:28+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0046s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('1','1','8','0','','1461032968','1461032968','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:29:32+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0035s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:29:39+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0042s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:29:44+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0047s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:41:38+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-04-19T10:41:39+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:41:39+08:00 ] ::1 /opened/Public/Img/Common/file_icon_big/iconfont-weizhi2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+
+[ 2016-04-19T10:42:22+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+
+[ 2016-04-19T10:42:22+08:00 ] ::1 /opened/Public/Img/Common/file_icon_big/iconfont-weizhi2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2016-04-19T10:42:22+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:42:23+08:00 ] ::1 /opened/Public/Img/Common/file_icon_big/iconfont-weizhi2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-04-19T10:42:24+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-04-19T10:42:24+08:00 ] ::1 /opened/Public/Img/Common/file_icon_big/iconfont-weizhi2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+
+[ 2016-04-19T10:42:24+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:42:24+08:00 ] ::1 /opened/Public/Img/Common/file_icon_big/iconfont-weizhi2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-04-19T10:45:14+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-04-19T10:45:14+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:45:21+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0280s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('1','1','2','0','','1461033921','1461033921','') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:45:26+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0040s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:45:30+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0033s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','11','0','','1461033930','1461033930','') [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:45:39+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0064s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','4','0','','1461033939','1461033939','') [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:45:56+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0038s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savepath G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','11','0','','1461033956','1461033956','') [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:49:16+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-04-19T10:49:16+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:49:20+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0049s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 110 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`address`) VALUES ('2','1','2','0','','1461034160','1461034160','固定地址统计.xlsx') [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:49:57+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-04-19T10:49:57+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:50:01+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0034s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: savename G:\works\code\php\phpStudy\WWW\opened\Application\Home\Controller\CompanyController.class.php 第 111 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`name`,`address`) VALUES ('2','1','2','0','','1461034201','1461034201','固定地址统计.xlsx','20160419/') [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:50:52+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-04-19T10:50:53+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:50:55+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0050s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`name`,`address`) VALUES ('2','1','2','0','','1461034255','1461034255','固定地址统计.xlsx','20160419/57159d0f92099.xlsx') [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+
+[ 2016-04-19T10:53:47+08:00 ] ::1 /opened/index.php?m=&c=Company&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-04-19T10:53:47+08:00 ] ::1 /opened/Public/Js/Common/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-04-19T10:53:51+08:00 ] ::1 /opened/index.php?m=&c=Company&a=upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `td_file` [ RunTime:0.0086s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+NOTIC: [8] Undefined index: validate G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `td_file` (`pid`,`status`,`type`,`is_del`,`remark`,`create_time`,`update_time`,`name`,`address`) VALUES ('2','1','2','0','','1461034431','1461034431','固定地址统计.xlsx','20160419/57159dbf35f0c.xlsx') [ RunTime:0.0004s ]
+NOTIC: [8] Array to string conversion G:\works\code\php\phpStudy\WWW\opened\ThinkPHP\Common\functions.php 第 1604 行.
+

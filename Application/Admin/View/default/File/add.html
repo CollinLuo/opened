@@ -1,0 +1,198 @@
+<include file="Public:header" />
+<body>
+	<script type="text/javascript" src="__PUBLIC__/Js/Common/My97DatePicker/WdatePicker.js"></script>
+	<!-- End .shortcut-buttons-set -->
+	<div id="main_box">
+		<div class="content-box">
+      		<!-- Start Content Box -->
+      			<div class="content-box-header">
+				<h3>{$navigation_bar}</h3>
+        			<ul class="content-box-tabs">
+          				<li><a href="#tab1" class="default-tab"><if condition="$act eq 'medit'">编辑<else />添加</if>文件</a></li>
+        			</ul>
+        			<div class="clear"></div>
+      			</div>
+      			<!-- End .content-box-header -->
+      			<div class="content-box-content">
+					
+				<!--Start #tab2-->
+				<div class="tab-content default-tab" id="tab1">
+					<!-- This is the target div. id must match the href of this div's tab -->
+					<div class="notification attention png_bg">
+						<div class="close">
+						<a href="#"><img src="__PUBLIC__/Img/Admin/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+						</div>
+						<div> 这是一个公告栏。顺便一提,你可以关闭此通知。<include file="Public:clue" /></div>
+    				</div>
+					<div class="c_input_box">
+						<if condition="$act eq 'madd'">
+						<form action="{:U('File/mAdd')}" id="file_form" method="post" enctype="multipart/form-data" onsubmit="return addValidate()">
+						<elseif condition="$act eq 'medit'" />
+						<form action="{:U('File/mEdit')}" id="file_form" method="post" enctype="multipart/form-data" onsubmit="return addValidate()">
+						<else />
+						<form action="{:U('File/index')}" id="file_form" method="post" enctype="multipart/form-data" onsubmit="return addValidate()">
+						</if>
+							<fieldset>
+								<p>
+              						<label>所属项目:</label>
+              						<select id="pid" name="pid" class="text-input small-input">
+										<option value="0" pid="">请选择所属项目</option>
+										<volist name="p_arr" id="vo" empty="">
+											<option value="{$vo.pid}" aid="{$vo.pid}" <if condition="$vo['pid'] eq $info['pid']">selected</if>>{$vo.name}</option>
+                						</volist>
+              						</select>
+									<span id="pid_msg" class="input-notification attention png_bg">请选择所属项目！</span>
+              						<br />
+									<small>请选择所属项目！</small> 
+            					</p>
+								<p>
+									<label>上传文件:</label>
+									<if condition="$act eq 'madd'">
+									<input class="text-input small-input" type="file" id="address" name="address" value="{$info.address}" />
+									<span id="address_msg" class="input-notification attention png_bg">请上传文件！</span>
+									<!-- Classes for input-notification: success, error, information, attention, optional -->
+									<br />
+									<small>请上传文件！</small>
+									<elseif condition="$act eq 'medit'" />
+									<if condition="$info['address']">
+									<div style="text-align:center;width:200px;">
+										<switch name="info.type" >
+										<case value="1"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-doc.png" alt="点击下载该文件" /></a></case>
+										<case value="2"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-xlsx.png" alt="点击下载该文件" /></a></case>
+										<case value="3"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-txt.png" alt="点击下载该文件" /></a></case>
+										<case value="4"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-filejpg.png" alt="点击下载该文件" /></a></case>
+										<case value="5"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-filegif.png" alt="点击下载该文件" /></a></case>
+										<case value="6"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-filepng.png" alt="点击下载该文件" /></a></case>
+										<case value="7"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-filejpeg.png" alt="点击下载该文件" /></a></case>
+										<case value="8"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-docx.png" alt="点击下载该文件" /></a></case>
+										<case value="9"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-pdf.png" alt="点击下载该文件" /></a></case>
+										<case value="10"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-rar.png" alt="点击下载该文件" /></a></case>
+										<case value="11"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-zip.png" alt="点击下载该文件" /></a></case>
+										<case value="12"><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-xls.png" alt="点击下载该文件" /></a></case>
+										<default /><a href="{:U('Download/download','id='.$info['id'])}"><img id="address_img" src="__PUBLIC__/Img/Common/file_icon_big/iconfont-weizhi.png" alt="点击下载该文件" /></a>
+										</switch>
+										<br />
+										<span>{$info.name}</span>
+									</div>
+									<br />
+									<input class="text-input small-input" type="file" id="address" name="address" value="{$info.address}" />
+									<br />
+									<small>重新选择会覆盖原有的文件！</small>
+									<else />
+									<input class="text-input small-input" type="file" id="address" name="address" value="{$info.address}" />
+									<span id="address_msg" class="input-notification attention png_bg">请上传文件！</span>
+									<!-- Classes for input-notification: success, error, information, attention, optional -->
+									<br />
+									<small>请上传文件！</small>
+									</if>
+									</if>
+								</p>
+								<p>
+              						<label>是否激活:</label>
+									<if condition="$act eq 'medit' and $info.status eq 0">
+									<input type="radio" name="status" value="0" checked="checked" />不激活&nbsp;&nbsp;&nbsp;&nbsp;
+              						<input type="radio" name="status" value="1" />激活
+									<elseif condition="$act eq 'medit' and $info.status eq 1" />
+									<input type="radio" name="status" value="0" />不激活&nbsp;&nbsp;&nbsp;&nbsp;
+              						<input type="radio" name="status" value="1" checked="checked" />激活
+									<else />
+              						<input type="radio" name="status" value="0" checked="checked" />不激活&nbsp;&nbsp;&nbsp;&nbsp;
+              						<input type="radio" name="status" value="1" />激活
+									</if>
+								</p>
+								<p>
+									<label>文件备注:</label>
+									<textarea class="text-input textarea wysiwyg" name="remark" cols="79" rows="10">{$info.remark}</textarea>
+								</p>
+								<p>
+									<if condition="$act eq 'madd'">
+										<input type="submit" value="添加" />
+									<elseif condition="$act eq 'medit'" />
+										<input type="hidden" name='id' value="{$info.id}" />	
+										<input name="submit" type="submit" value="修改" />
+									</if>
+									<input type="hidden" name='act' value="{$act}" />
+									<input name="reset" type="reset" value="重置" />
+								</p>
+							</fieldset>
+							<div class="clear"></div>
+							<!-- End .clear -->
+						</form>
+					</div>
+				</div> 	
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="clear"></div>
+    	
+    	<div id="footer"> <small>
+      	<!-- Remove this notice or replace it with whatever you want -->
+      	&#169; Copyright 2013 Your Company | Powered by <a href="http://www.trydemo.net">D.Apache.Luo</a> | <a href="#">Top</a> </small> </div>
+    	<!-- End #footer -->
+  </div>
+  <!-- End #main-content -->
+</div>
+</div>
+</body>
+<include file="Public:footer" />
+<script type="text/javascript">
+
+
+	//表单提交验证
+	function addValidate(){
+		var flag = true;
+		var msg = '';
+		var pid = parseInt($('#pid').val());
+		var pid_tmp_msg = '';
+		var pid_msg = $("#pid_msg");
+		var act = $("input[name='act']");
+		
+		if(pid < 1){
+			msg += '未选择所属项目！\n';
+			pid_tmp_msg = '未选择所属项目！';
+			pid_msg.show();
+			pid_msg.removeClass("success");
+			pid_msg.addClass("error");
+			pid_msg.text(pid_tmp_msg);
+			flag = false;
+		}
+		
+		if(act.length && act == 'madd'){
+			var address_msg = $('#address_msg');
+			var address_val = $.trim($('#address').val());
+			if(!address_val.length){
+				flag = false;
+				var tmp_msg = "上传文件不能为空！";
+				msg += tmp_msg+'\n';
+				address_msg.show();
+				address_msg.removeClass("attention");
+				address_msg.addClass("error");
+				address_msg.text(tmp_msg);
+			}
+		}else{
+			var address_img = $("#address_img");
+			if(!address_img.length){
+				var address_msg = $('#address_msg');
+				var address_val = $.trim($('#address').val());
+				if(!address_val.length){
+					flag = false;
+					var tmp_msg = "上传文件不能为空！";
+					msg += tmp_msg+'\n';
+					address_msg.show();
+					address_msg.removeClass("attention");
+					address_msg.addClass("error");
+					address_msg.text(tmp_msg);
+				}
+			}
+		}
+
+		if(!flag){
+			alert(msg);
+			//调用屏幕抖动效果
+			addLoadEvent(function(){ var p=new Array(15,30,15,0,-15,-30,-15,0);p=p.concat(p.concat(p));var i=document.forms[0].id;g(i).position='relative';shake(i,p,20);});
+		}
+		//return false;
+		return flag;
+	}
+</script>

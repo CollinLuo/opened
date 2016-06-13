@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="zh-CN">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>{$web_name}-{$description}</title>
+		<meta name="keywords" content="{$keywords}"/>
+		<meta name="description" content="{$seo_description}" />
+		<meta name="baidu-site-verification" content="I71tHi4Tk2" />
+		<!--css-->
+		<link rel='stylesheet' id='twentytwelve-style-css'  href='__PUBLIC__/Css/Home/style.css' type='text/css' media='all' />
+		<!-- js -->
+		<!-- jQuery -->
+		<script type="text/javascript" src="__PUBLIC__/Js/Common/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/Home/common.js"></script>
+		<include file='Public:header_js'/>
+	</head>
+	<body class="home blog custom-background custom-font-enabled single-author">
+		
+		<div id="head_box">
+			<include file='Public:header'/>
+		</div>
+		
+		<div id="page" class="container">
+			<div class="logobar">
+				<include file='Public:banner'/>
+			</div>
+			<div class="site">
+				<include file='Public:navigation_bar'/>
+				<div id="main" class="wrapper_box">
+					<include file='Search:search_content'/>
+					<include file='Public:right'/>
+				</div>
+				<div class="clear"></div>
+				<include file='Public:footer'/>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* CSS Document */
+body{font-family: "微软雅黑";}
+.hei12-hei {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	line-height: 18px;
+}
+.hei16-hei {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+	line-height: 24px;
+}
+.hei16-bai {
+	font-family: "微软雅黑";
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFF;
+}
+.hei24-hei {
+	font-family: "微软雅黑";
+	font-size: 24px;
+	line-height: 36px;
+	color: #000;
+}
+.hei24-bai {
+	font-family: "微软雅黑";
+	font-size: 24px;
+	line-height: 36px;
+	color: #FFF;
+}
+.hei18-bai {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-style: normal;
+	line-height: 26px;
+	color: #FFF;
+}
+.hei21-bai {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 18px;
+	color: #FFF;
+}
+.hei21-hei {
+	font-family: "微软雅黑";
+	font-size: 21px;
+	font-style: normal;
+	line-height: 28px;
+	color: #000;
+}
+.hei14-hei {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 21px;
+	color: #000;
+}
+.hei14-bai {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 21px;
+	color: #FFF;
+}
+.hei21-bai {
+	font-family: "微软雅黑";
+	font-size: 21px;
+	font-style: normal;
+	line-height: 28px;
+	color: #FFF;
+}
+.hei12-bai {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: normal;
+	color: #FFF;
+}
+.hei18-hei {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 26px;
+	color: #000;
+}
+.hei18-hui {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 24px;
+	color: #666;
+}
+.hei14-hui {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 18px;
+	color: #999;
+}.hei14-lan {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 18px;
+	color: #000099;
+}
+.hei36-hei {
+	font-family: "微软雅黑";
+	font-size: 36px;
+	line-height: 48px;
+	color: #000;
+}
+.hei36-bai {
+	font-family: "微软雅黑";
+	font-size: 36px;
+	font-style: normal;
+	line-height: 48px;
+	color: #FFF;
+}
+/*
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #CCC;
+}
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+a img { 
+	border: none;
+}
+a:link {
+	color: #666;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+	color: #000;
+}
+.container {
+	width: 1000px;
+	background: #FFFFFF;
+	margin: 0 auto; 
+}
+.header {
+	background-color: #FFF;
+}
+.sidebar1 {
+	float: left;
+	width: 180px;
+	background: #EADCAE;
+	padding-bottom: 10px;
+}
+.content {
+
+	padding: 10px 0;
+	width: 600px;
+	float: left;
+}
+.sidebar2 {
+	float: left;
+	width: 180px;
+	background: #EADCAE;
+	padding: 10px 0;
+}
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; 
+}
+ul.nav {
+	list-style: none; 
+	border-top: 1px solid #666; 
+	margin-bottom: 15px; 
+}
+ul.nav li {
+	border-bottom: 1px solid #666; 
+}
+ul.nav a, ul.nav a:visited { 
+	padding: 5px 5px 5px 15px;
+	display: block; 
+	width: 160px;  
+	text-decoration: none;
+	background: #C6D580;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
+	background: #ADB96E;
+	color: #FFF;
+}
+.footer {
+	padding: 10px 0;
+	background: #CCC;
+	position: relative;
+	clear: both; 
+}
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+*/

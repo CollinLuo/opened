@@ -1,0 +1,24 @@
+<div id="primary" class="site-content">
+	<div id="content" role="main">		
+		<volist name="articleList" id="vo">					
+		<div class="article_content">
+			<div class="entry-header">
+				<h1 class="entry-title"><a href="__APP__/Article/index/id/{$vo.id}" title="{$vo.title}" rel="bookmark">{$vo.title}</a></h1>
+			</div>
+			
+			<div class="entry-content">{$vo.description}</div>
+			
+			<div class="entry-meta">
+				发布于 <a href="__APP__/Home/tag/t/{$vo.release_time2}" title="{$vo.release_time2}" rel="bookmark"><span class="entry-date" datetime="{$vo.release_time}">{$vo.release_time}</span></a>。 属于 <a href="__APP__/Home/category/id/{$vo.cid}" title="查看 {$vo.c_name}中的全部文章" rel="category">{$vo.c_name}</a> 分类，
+				被贴了<volist name="vo.tags" id="vo2">
+				<if condition="$key eq '0'">
+					&nbsp;<a href="__APP__/Home/tag/tag/{$vo2}" rel="tag">{$vo2}</a>
+				<else/>
+					- <a href="__APP__/Home/tag/tag/{$vo2}" rel="tag">{$vo2}</a>
+				</if>					
+				</volist> 标签
+			</div>
+		</div>		
+		</volist>
+	</div>
+</div>

@@ -1,0 +1,159 @@
+<{include file="public/header.html"}>
+<body>
+	<!-- Page Head -->
+	<div id="menu_box">
+    	<h2>Welcome www.cheShop.com</h2>
+    	<p id="page-intro">What would you like to do?</p>
+    		<ul class="shortcut-buttons-set">
+	    		<li><a class="shortcut-button" href="<{$app}>/commodity/index" target="_self"><span> <img src="<{$res}>/images/icons/pencil_48.png" alt="icon" /><br /> 添加新商品 </span></a></li>
+      			<li><a class="shortcut-button" href="<{$app}>/user/add" target="_self"><span> <img src="<{$res}>/images/icons/paper_content_pencil_48.png" alt="icon" /><br /> 添加新会员 </span></a></li>
+      			<li><a class="shortcut-button" href="<{$app}>/image/index" target="_self"><span> <img src="<{$res}>/images/icons/image_add_48.png" alt="icon" /><br /> 上传新图片 </span></a></li>
+      			<li><a class="shortcut-button" href="<{$app}>/advert/index" target="_self"><span> <img src="<{$res}>/images/icons/clock_48.png" alt="icon" /><br /> 广告管理 </span></a></li>
+      			<li><a class="shortcut-button" href="#messages" rel="modal"><span> <img src="<{$res}>/images/icons/comment_48.png" alt="icon" /><br /> 站内信 </span></a></li>
+    		</ul>
+	</div>
+	<!-- End .shortcut-buttons-set -->
+	<div id="main_box">
+		<div class="content-box">
+      		<!-- Start Content Box -->
+      			<div class="content-box-header">
+				<h3>小店管理>友情链接信息修改</h3>
+        			<ul class="content-box-tabs">
+          				<li><a href="#tab1" class="default-tab">Table</a></li>
+        			</ul>
+        			<div class="clear"></div>
+      			</div>
+      			<!-- End .content-box-header -->
+      			<div class="content-box-content">
+        			<div class="tab-content default-tab" id="tab1">
+          		<!-- This is the target div. id must match the href of this div's tab -->
+          				<div class="notification attention png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+						<div> 这是一个公告栏。顺便一提,你可以关闭此通知。<br /><{include file="public/clue.html"}>  </div>
+    					</div>
+    					<div class="tab_test">
+						<table align="center" width="100%" style="border:1px dotted silver;">
+									<form  method="post" action="<{$url}>/update" enctype="multipart/form-data">
+									<input type="hidden" name="id" value="<{$post.id}>" />
+									<tr>
+										<td>友情链接名称:<font color="red">&nbsp;*</font></td>
+										<td><input type="text" name="name" maxlength="50" value="<{ $post.name }>">&nbsp;<{$color}>&nbsp;</td>
+									</tr>
+									<tr>
+										<td>logo:<font color="red">&nbsp;*</font></td>
+										<td>
+											<input type="file" name="logo" />
+										</td>
+									</tr>
+									<tr>
+										<td>链接地址:<font color="red">&nbsp;*</font></td>
+										<td>
+											<input type="text" name="url" value="<{$post.url}>" />&nbsp;例如:http://www.pp6d.com
+										</td>
+									</tr>
+									<tr>
+										<td>链接描述:<font color="red">&nbsp;*</font></td>
+										<td>
+											<textarea name="detail" cols="50" rows="4" maxlength="250"><{ $post.detail }></textarea>	
+										</td>
+									</tr>
+									<tr>
+										<td>联系人:<font color="red">&nbsp;*</font></td>
+										<td>
+											<input type="text" name="linkman" value="<{$post.linkman}>" />
+										</td>
+									</tr>
+									<tr>
+										<td>站长邮箱:<font color="red">&nbsp;*</font></td>
+										<td>
+											<input type="text" name="email" value="<{$post.email}>" />
+										</td>
+									</tr>
+									<tr>
+										<td>显示风格:</td>
+										<td>
+												<input type="radio" name="showtype" value="1" <{if $post.showtype eq "1" or $post.showtype eq null}> checked <{/if}> />显示LOGO
+												<input type="radio" name="showtype" value="0" <{if $post.showtype eq "0" }> checked <{/if}> />显示名称
+										</td>
+									</tr>
+									<tr>
+										<td>是否显示</td>
+										<td>
+											<input type="radio" name="display"  <{if $post.display eq "1" or $post.display eq null}> checked <{/if}> value="1"> 显示
+											<input type="radio" name="display" <{if $post.display eq "0" }> checked <{/if}> value="0"> 不显示
+											
+										</td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>
+										<td>
+											<input type="submit" class="button" value="修 改">&nbsp;&nbsp;
+											<input type="reset" class="button" value="重 置">
+											
+										</td>
+									</tr>
+									</form>	
+								</table>		
+					</div>
+  				</div>  
+        			<!-- End #tab1 -->	
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="content-box column-left">
+      		<div class="content-box-header">
+        	<h3>左公告区</h3>
+      		</div>
+      		<!-- End .content-box-header -->
+      		<div class="content-box-content">
+        		<div class="tab-content default-tab">
+          			<h4>Maecenas dignissim</h4>
+          			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in porta lectus. Maecenas dignissim enim quis ipsum mattis aliquet. Maecenas id velit et elit gravida bibendum. Duis nec rutrum lorem. Donec egestas metus a risus euismod ultricies. Maecenas lacinia orci at neque commodo commodo. </p>
+        		</div>
+        		<!-- End #tab3 -->
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="content-box column-right closed-box">
+      		<div class="content-box-header">
+        	<!-- Add the class "closed" to the Content box header to have it closed by default -->
+        		<h3>右公告区</h3>
+      		</div>
+      		<!-- End .content-box-header -->
+      		<div class="content-box-content">
+        		<div class="tab-content default-tab">
+          			<h4>右公告区默认关闭</h4>
+          			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in porta lectus. Maecenas dignissim enim quis ipsum mattis aliquet. Maecenas id velit et elit gravida bibendum. Duis nec rutrum lorem. Donec egestas metus a risus euismod ultricies. Maecenas lacinia orci at neque commodo commodo. </p>
+        		</div>
+        		<!-- End #tab3 -->
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="clear"></div>
+    	<!-- Start Notifications -->
+    	<div class="notification attention png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 注意通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<div class="notification information png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 信息通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<div class="notification success png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 成功的通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<div class="notification error png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 错误的通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<!-- End Notifications -->
+    	<div id="footer"> <small>
+      	<!-- Remove this notice or replace it with whatever you want -->
+      	&#169; Copyright 2012 Your Company | Powered by <a href="http://www.cheshop.com">D.Apache.Luo</a> | <a href="#">Top</a> </small> </div>
+    	<!-- End #footer -->
+  </div>
+  <!-- End #main-content -->
+</div>
+</div>
+</body>
+<{include file="public/footer.html"}>
+

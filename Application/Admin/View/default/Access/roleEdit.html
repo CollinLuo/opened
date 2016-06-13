@@ -1,0 +1,242 @@
+<include file="Public:header" />
+<body>
+	<!-- End .shortcut-buttons-set -->
+	<div id="main_box">
+		<div class="content-box">
+      		<!-- Start Content Box -->
+      			<div class="content-box-header">
+				<h3>{$navigation_bar}</h3>
+        			<ul class="content-box-tabs">
+          				<li><a href="#tab1" class="default-tab">编辑角色信息</a></li>
+        			</ul>
+        			<div class="clear"></div>
+      			</div>
+      			<!-- End .content-box-header -->
+      			<div class="content-box-content">
+					
+				<!--Start #tab2-->
+				<div class="tab-content default-tab" id="tab1">
+					<!-- This is the target div. id must match the href of this div's tab -->
+					<div class="notification attention png_bg">
+						<div class="close">
+						<a href="#"><img src="__PUBLIC__/Img/Admin/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+						</div>
+						<div> 这是一个公告栏。顺便一提,你可以关闭此通知。<include file="Public:clue" /></div>
+    				</div>
+					<div class="u_tab_form">
+						<table align="center" width="100%">
+							<form action="{:U('Access/mAdminRoleEdit')}" method="post">
+							<if condition="$act eq 'madminroleadd'">
+							<form action="{:U('Access/mAdminRoleAdd')}" method="post">
+							<elseif condition="$act eq 'madminroleedit'" />
+							<form action="{:U('Access/mAdminRoleEdit')}" method="post">
+							<else />
+							<form action="{:U('Access/index')}" method="post">
+							</if>
+								<tr>
+									<th><span class="ud_width">角色名称:<font color="red">*</font></span></th>
+									<td>
+										<if condition="($act eq 'madminroleadd') OR ($act eq 'madminroleedit')">
+											<input name="name" type="text" value="{$role_info.name}" />&nbsp;&nbsp;可以使用中文，但禁止除[@][.]以外的特殊符号
+										<else />
+											<input name="name" type="text"  value="{$role_info.name}" readonly='readonly' disabled="disabled" />
+										</if>
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">父级管理员角色:</span></th>
+									<td>
+										<select name="role_pid">
+											<volist name="tree_list" id="vo" empty="$tree_list_empty">
+												<!--
+												<if condition="$vo.is_edit eq 1">
+													<option value="{$vo.id}" <eq name="vo.id" value="$role_info.pid">selected</eq>>{$vo.html}{$vo.name}</option>
+												<else />
+													
+													<eq name="vo.id" value="$role_info.id">
+														<option value="{$vo.id}" selected >{$vo.html}{$vo.name}</option>
+													<else />
+														<option value="{$vo.id}" disabled >{$vo.html}{$vo.name}</option>
+													</eq>	
+													<if condition="$vo['id'] eq $role_info['pid']">
+														<option value="{$vo.id}" selected >{$vo.html}{$vo.name}</option>
+													<else />
+														<option value="{$vo.id}" disabled >{$vo.html}{$vo.name}</option>
+													</if>
+												</if>
+												-->
+												<if condition="$role_info['pid'] eq 0">
+													<option value="{$vo.id}" selected >{$vo.html}{$vo.name}</option>
+												<else />
+													<if condition="$vo['is_edit'] eq 1">
+														<if condition="$vo['id'] eq $role_info['id']">
+															<option value="{$vo.id}" disabled >{$vo.html}{$vo.name}</option>
+														<else />
+															<if condition="$vo['id'] eq $role_info['pid']">
+																<option value="{$vo.id}" selected >{$vo.html}{$vo.name}</option>
+															<else />
+																<option value="{$vo.id}">{$vo.html}{$vo.name}</option>
+															</if>
+														</if>
+													<else />
+														<option value="{$vo.id}" disabled >{$vo.html}{$vo.name}</option>
+													</if>
+												</if>
+											</volist>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">是否禁用:</span></th>
+									<td>
+										<if condition="$act eq 'madd'">
+											<input type="radio" name="status" value="1" />启用
+											<input type="radio" name="status" value="0" checked="checked" />禁用
+										<else />
+											<if condition="$role_info.status eq 1">
+												<input type="radio" name="status" value="1" checked="checked" />启用
+												<input type="radio" name="status" value="0" />禁用
+											<else />
+												<input type="radio" name="status" value="1" />启用
+												<input type="radio" name="status" value="0" checked="checked" />禁用
+											</if>
+										</if>
+										
+									</td>
+								</tr>
+								<tr>
+									<th><span class="ud_width">备注:</span></th>
+									<td>
+										
+										<textarea name="remark" rows="2" cols="20" id="remark" class="inputtext" style="height: 122px; width: 400px; margin-top: 0px; margin-bottom: 0px;">{$role_info.remark}</textarea>
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<if condition="$act eq 'madminroleadd'">
+											<input type="submit" value="添加" />
+										<elseif condition="$act eq 'madminroleedit'" />
+											<input type="hidden" name='id' value="{$role_info.id}" />	
+											<input name="submit" type="submit" value="修改" />
+										</if>
+										<input name="reset" type="reset" value="重置" />
+									</td>
+								</tr>
+							</form>	
+						</table>
+					</div>
+				</div> 	
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="clear"></div>
+    	<div id="footer"> <small>
+      	<!-- Remove this notice or replace it with whatever you want -->
+      	&#169; Copyright 2013 Your Company | Powered by <a href="http://www.trydemo.net">D.Apache.Luo</a> | <a href="#">Top</a> </small> </div>
+    	<!-- End #footer -->
+  </div>
+  <!-- End #main-content -->
+</div>
+</div>
+</body>
+<include file="Public:footer" />
+<script type="text/javascript">
+	function checkName(obj){
+		var ra_name = $('#role_name');
+		var ra_name_msg = $("#role_add_input_name");
+		var name = $.trim(ra_name.val());
+		var msg = '';
+
+		if(!name.length){
+			msg = '角色名不能为空！\n';
+			ra_name_msg.attr('check_flag',2);
+			ra_name_msg.show();
+			ra_name_msg.removeClass("error");
+			ra_name_msg.addClass("success");
+			ra_name_msg.text(msg);
+			
+
+		}else{
+			//ajax判断重名
+			$.ajax({
+				type:"post",
+				url:"{:U('Access/ajax_check_role_name')}",
+				data:"name="+name,
+				dataType:"json",
+				success:function(result){
+					if(result.flag){
+						ra_name_msg.show();
+						ra_name_msg.attr('check_flag',1);
+						ra_name_msg.removeClass("error");
+						ra_name_msg.addClass("success");
+						ra_name_msg.text(result.msg);
+					}else{
+						ra_name_msg.show();
+						ra_name_msg.attr('check_flag',3);
+						ra_name_msg.removeClass("success");
+						ra_name_msg.addClass("error");
+						ra_name_msg.text(result.msg);
+					}
+				},
+				error: function(XMLHttpRequest, textStatus, errorThrown) {
+					//alert(XMLHttpRequest.status);
+					//alert(XMLHttpRequest.readyState);
+					//alert(textStatus);
+					ra_name_msg.show();
+					ra_name_msg.attr('check_flag',4);
+					ra_name_msg.removeClass("success");
+					ra_name_msg.addClass("error");
+					ra_name_msg.text("请求错误！请刷新重试！");
+				}
+			});
+		}
+	}
+
+	//表单提交验证
+	function addValidate(){
+		var flag = true;
+		var msg = '';
+		var name = $.trim($('#role_name').val());
+		var obj = $("#role_add_input_name");
+		
+		if(!name.length){
+			msg += '角色名不能为空！\n';
+			flag = false;
+
+		}else{
+			var name_check_flag = obj.attr('check_flag');
+			if(name_check_flag != 1){
+				flag = false;
+				if(name_check_flag == 2){
+					msg += '角色名不能为空！\n';
+				}else if(name_check_flag == 3){
+					var check_msg = obj.text();
+					if(check_msg.length > 0){
+						msg += check_msg;
+					}else{
+						msg += '角色名不合法！\n';
+					}
+				}else if(name_check_flag == 4){
+					msg += '未知错误！';
+				}else{
+					msg += '未知错误！';
+				}
+			}	
+		}
+
+		if(!flag){
+			obj.show();
+			obj.removeClass("success");
+			obj.addClass("error");
+			obj.text(msg);
+			alert(msg);
+			//调用屏幕抖动效果
+			addLoadEvent(function(){ var p=new Array(15,30,15,0,-15,-30,-15,0);p=p.concat(p.concat(p));var i=document.forms[0].id;g(i).position='relative';shake(i,p,20);});
+		}
+		//return false;
+		return flag;
+	}
+	
+</script>

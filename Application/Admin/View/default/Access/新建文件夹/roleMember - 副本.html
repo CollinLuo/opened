@@ -1,0 +1,152 @@
+<include file="Public:header" />
+<body>
+	
+	<!-- End .shortcut-buttons-set -->
+	<div id="main_box">
+		<div class="content-box">
+      		<!-- Start Content Box -->
+			<div class="content-box-header">
+			<h3>{$navigation_bar}</h3>
+				<ul class="content-box-tabs">
+					<li><a href="#tab1" class="default-tab">角色成员管理</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<!-- End .content-box-header -->
+			<div class="content-box-content">
+				<!--Start #tab2-->
+				<div class="tab-content default-tab" id="tab1">
+					<!-- This is the target div. id must match the href of this div's tab -->
+					<div class="notification attention png_bg">
+						<div class="close">
+						<a href="#"><img src="__PUBLIC__/Img/Admin/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+						</div>
+						<div> 这是一个公告栏。顺便一提,你可以关闭此通知。<include file="Public:clue" /></div>
+    				</div>
+					<div id="role_manager_box" class="tab_test">
+						<div id="role_manager_box">
+							<form action="{:U('Access/mAdminRoleList')}" method="post">
+								<div class="rm_tab_top_box">
+									<p>
+										<label>选择管理员角色</label>
+										<select id="role_pid" name="role_pid">
+											<volist name="tree_list" id="vo" empty="$tree_list_empty">
+												<if condition="$role_info['pid'] eq 0">
+													<option value="{$vo.id}" selected >{$vo.html}{$vo.name}</option>
+												<else />
+													<if condition="$vo['is_edit'] eq 1">
+														<if condition="$vo['id'] eq $role_info['id']">
+															<option value="{$vo.id}" disabled >{$vo.html}{$vo.name}</option>
+														<else />
+															<if condition="$vo['id'] eq $role_info['pid']">
+																<option value="{$vo.id}" selected >{$vo.html}{$vo.name}</option>
+															<else />
+																<option value="{$vo.id}">{$vo.html}{$vo.name}</option>
+															</if>
+														</if>
+													<else />
+														<option value="{$vo.id}" disabled >{$vo.html}{$vo.name}</option>
+													</if>
+												</if>
+												
+											</volist>
+										</select>
+									</p>
+								</div>
+								<div class="rm_tab_left_box">
+									<ul>
+										<li>
+											<span><a><a>赵大媳妇儿</a></a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+										<li>
+											<span><a><a>赵大媳妇儿</a></a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+										<li>
+											<span><a><a>赵大媳妇儿</a></a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+										<li>
+											<span><a><a>赵大媳妇儿</a></a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+										<li>
+											<span><a><a>赵大媳妇儿</a></a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+										<li>
+											<span><a><a>赵大媳妇儿</a></a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+										<li>
+											<span><a><a>赵大媳妇儿</a></a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+										<li>
+											<span><a><a>赵大媳妇儿</a></a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+										<li>
+											<span><a><a>赵大媳妇儿</a></a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+										<li>
+											<span><a><a>赵大媳妇儿</a></a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+										<li>
+											<span><a>赵大媳妇儿</a>&nbsp;&nbsp;&nbsp;<input type="checkbox" name="select_role_user" value="1" /></span>
+										</li>
+									</ul>
+								</div>
+								<div class="rm_tab_left_button">
+									<p>
+										<input type="button" class="button" value="添加" />
+									</p>
+								</div>
+								<div class="rm_tab_right_box">
+									<ul>
+										<li>
+											<span><a>罗大老爷</a>&nbsp;&nbsp;&nbsp;<a class="rtrb_del_button" title="删除" href="#"><img alt="删除" src="__PUBLIC__/Img/Admin/icons/cross.png"></a></span>
+										</li>
+										<li>
+											<span><a>罗大老爷</a>&nbsp;&nbsp;&nbsp;<a class="rtrb_del_button" title="删除" href="#"><img alt="删除" src="__PUBLIC__/Img/Admin/icons/cross.png"></a></span>
+										</li>
+										<li>
+											<span><a>罗大老爷</a>&nbsp;&nbsp;&nbsp;<a class="rtrb_del_button" title="删除" href="#"><img alt="删除" src="__PUBLIC__/Img/Admin/icons/cross.png"></a></span>
+										</li>
+									</ul>
+								</div>
+								<div class="clear"></div>
+							</form>
+						</div>
+					</div>
+				</div> 	
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	
+    	<div class="clear"></div>
+    	
+    	<div id="footer"> <small>
+      	<!-- Remove this notice or replace it with whatever you want -->
+      	&#169; Copyright 2013 Your Company | Powered by <a href="http://www.trydemo.net">D.Apache.Luo</a> | <a href="#">Top</a> </small> </div>
+    	<!-- End #footer -->
+  </div>
+  <!-- End #main-content -->
+</div>
+</div>
+</body>
+<include file="Public:footer" />
+
+
+<script type="text/javascript">
+	//用户审核状态ajax切换
+	function toggleStatus(id){
+		if(id){
+			$.ajax({
+				type: "POST",
+				url: "{:U('User/ajax_update_status')}",
+				data: "id="+ id,
+				dataType: "json",
+				success: function(result){
+					$("#status_"+id+" img").attr('src','__PUBLIC__/Img/Common/status_'+result+'.gif');
+				}
+			});
+		}else{
+			alert("请求失败！");
+		}
+	}
+</script>

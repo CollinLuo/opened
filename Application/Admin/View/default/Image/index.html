@@ -1,0 +1,167 @@
+<{include file="public/header.html"}>
+<body>
+	<!-- Page Head -->
+	<div id="menu_box">
+    	<h2>Welcome www.cheShop.com</h2>
+    	<p id="page-intro">What would you like to do?</p>
+    		<ul class="shortcut-buttons-set">
+	    		<li><a class="shortcut-button" href="<{$app}>/commodity/index" target="_self"><span> <img src="<{$res}>/images/icons/pencil_48.png" alt="icon" /><br /> 添加新商品 </span></a></li>
+      			<li><a class="shortcut-button" href="<{$app}>/user/add" target="_self"><span> <img src="<{$res}>/images/icons/paper_content_pencil_48.png" alt="icon" /><br /> 添加新会员 </span></a></li>
+      			<li><a class="shortcut-button" href="<{$app}>/image/index" target="_self"><span> <img src="<{$res}>/images/icons/image_add_48.png" alt="icon" /><br /> 上传新图片 </span></a></li>
+      			<li><a class="shortcut-button" href="<{$app}>/advert/index" target="_self"><span> <img src="<{$res}>/images/icons/clock_48.png" alt="icon" /><br /> 广告管理 </span></a></li>
+      			<li><a class="shortcut-button" href="#messages" rel="modal"><span> <img src="<{$res}>/images/icons/comment_48.png" alt="icon" /><br /> 站内信 </span></a></li>
+    		</ul>
+	</div>
+	<!-- End .shortcut-buttons-set -->
+	<div id="main_box">
+		<div class="content-box">
+      		<!-- Start Content Box -->
+      			<div class="content-box-header">
+				<h3>图片管理>上传图片</h3>
+        			<ul class="content-box-tabs">
+          				<li><a href="#tab1" class="default-tab">Table</a></li>
+        			</ul>
+        			<div class="clear"></div>
+      			</div>
+      			<!-- End .content-box-header -->
+      			<div class="content-box-content">
+        			<div class="tab-content default-tab" id="tab1">
+          		<!-- This is the target div. id must match the href of this div's tab -->
+          				<div class="notification attention png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+						<div> 这是一个公告栏。顺便一提,你可以关闭此通知。<br /><{include file="public/clue.html"}>  </div>
+    					</div>
+    					<div class="tab_test">
+          					<table align="center" width="100%" style="border:1px dotted silver;font:18px;">
+								<form action="<{$url}>/insert" method="post" enctype="multipart/form-data">
+									<tr>
+										<td>添加到相册:<font color="red">*</font></td>
+										<td>
+											<select name="pid">
+												<{section loop=$data name="ls"}>
+												<{if $data[ls].albumid ne 0}>
+												<option value="<{$data[ls].albumid}>"><{$data[ls].name}></option>
+												<{/if}>
+												<{/section}>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td>图片处理:</td>
+										<td>
+											<input type="checkbox" name="thumb" <{$thumb}> value="1">生成缩略图 
+											&nbsp;&nbsp;&nbsp;<input type="checkbox" name="water" <{$water}> value="1">加水印 
+										</td>
+									</tr>
+									<tr>
+										<td>图片选择:<font color="red">*</font></td>
+										<td>
+											<span id="apic" style="float:left !important;float:none;width:300px;">
+											<input type="file" name="picture[]" ><br />	
+										</td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>
+										<td>
+											&nbsp;&nbsp;&nbsp;<a href="javascript:addpic()"><font color="#cc8897">继续添加</font></a>&nbsp;<b>↓</b>
+											<span id="del" style="display:none">&nbsp;&nbsp;<a href="javascript:delpic()"><font color="#cc8897">减少一个</font></a>&nbsp;<b>↑</b></span>
+											
+										</td>
+									</tr>
+									<tr>
+										<td>&nbsp;</td>
+										<td>
+											<input type="submit" value="添加">
+											<input type="reset" value="重置" />
+										</td>
+									</tr>
+								</form>		
+								</table>
+					<script>
+						var picobj=document.getElementById("apic");
+						var del=document.getElementById("del");
+						var i=0;
+						function addpic(){
+							i++;
+							if(i==1)
+								del.style.display="inline";   										
+
+							var file=document.createElement("input");
+							file.type="file";
+							file.name="picture[]";
+							var br=document.createElement("br");
+							picobj.appendChild(file);	
+							picobj.appendChild(br);
+						
+						}
+						function delpic(){
+							i--;
+							if(i==0)
+								del.style.display="none";   
+							picobj.removeChild(picobj.lastChild);
+							picobj.removeChild(picobj.lastChild);
+						}
+					</script>		
+					</div>
+  				</div>  
+        			<!-- End #tab1 -->	
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="content-box column-left">
+      		<div class="content-box-header">
+        	<h3>左公告区</h3>
+      		</div>
+      		<!-- End .content-box-header -->
+      		<div class="content-box-content">
+        		<div class="tab-content default-tab">
+          			<h4>Maecenas dignissim</h4>
+          			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in porta lectus. Maecenas dignissim enim quis ipsum mattis aliquet. Maecenas id velit et elit gravida bibendum. Duis nec rutrum lorem. Donec egestas metus a risus euismod ultricies. Maecenas lacinia orci at neque commodo commodo. </p>
+        		</div>
+        		<!-- End #tab3 -->
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="content-box column-right closed-box">
+      		<div class="content-box-header">
+        	<!-- Add the class "closed" to the Content box header to have it closed by default -->
+        		<h3>右公告区</h3>
+      		</div>
+      		<!-- End .content-box-header -->
+      		<div class="content-box-content">
+        		<div class="tab-content default-tab">
+          			<h4>右公告区默认关闭</h4>
+          			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in porta lectus. Maecenas dignissim enim quis ipsum mattis aliquet. Maecenas id velit et elit gravida bibendum. Duis nec rutrum lorem. Donec egestas metus a risus euismod ultricies. Maecenas lacinia orci at neque commodo commodo. </p>
+        		</div>
+        		<!-- End #tab3 -->
+      		</div>
+      		<!-- End .content-box-content -->
+    	</div>
+    	<!-- End .content-box -->
+    	<div class="clear"></div>
+    	<!-- Start Notifications -->
+    	<div class="notification attention png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 注意通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<div class="notification information png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 信息通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<div class="notification success png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 成功的通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<div class="notification error png_bg"> <a href="#" class="close"><img src="<{$res}>/images/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
+      	<div> 错误的通知. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate, sapien quis fermentum luctus, libero. </div>
+    	</div>
+    	<!-- End Notifications -->
+    	<div id="footer"> <small>
+      	<!-- Remove this notice or replace it with whatever you want -->
+      	&#169; Copyright 2012 Your Company | Powered by <a href="http://www.cheshop.com">D.Apache.Luo</a> | <a href="#">Top</a> </small> </div>
+    	<!-- End #footer -->
+  </div>
+  <!-- End #main-content -->
+</div>
+</div>
+</body>
+<{include file="public/footer.html"}>
+
