@@ -521,7 +521,7 @@
 										<div class="replied_time" style="margin-bottom:10px;">
 											<span>2015-01-12 22:30:01<!--<?php echo (date('Y-m-d H:i:s',$vo["comment_edit_date"])); ?>--></span>
 											<span class="reply">
-												<a onclick="return addComment.moveForm('comment-<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["comment_author_name"]); ?>', '<?php echo ($vo["comment_top_parent"]); ?>', '<?php echo ($article_info["id"]); ?>', 0)" href="/opened/index.php?m=&c=Company&a=index&id=9">[回复]</a>
+												<a onclick="return addComment.moveForm('comment-<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["comment_author_name"]); ?>', '<?php echo ($vo["comment_top_parent"]); ?>', '<?php echo ($article_info["id"]); ?>', 0)" href="/opened/index.php?m=&c=Company&a=index&id=1">[回复]</a>
 											</span>
 										</div>
 									</div>
@@ -541,7 +541,7 @@
 										<div class="replied_time" style="margin-bottom:10px;">
 											<span>2015-10-12 22:30:01<!--<?php echo (date('Y-m-d H:i:s',$vo["comment_edit_date"])); ?>--></span>
 											<span class="reply">
-												<a onclick="return addComment.moveForm('comment-<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["comment_author_name"]); ?>', '<?php echo ($vo["comment_top_parent"]); ?>', '<?php echo ($article_info["id"]); ?>', 0)" href="/opened/index.php?m=&c=Company&a=index&id=9">[回复]</a>
+												<a onclick="return addComment.moveForm('comment-<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["comment_author_name"]); ?>', '<?php echo ($vo["comment_top_parent"]); ?>', '<?php echo ($article_info["id"]); ?>', 0)" href="/opened/index.php?m=&c=Company&a=index&id=1">[回复]</a>
 											</span>
 										</div>
 									</div>
@@ -561,7 +561,7 @@
 										<div class="replied_time" style="margin-bottom:10px;">
 											<span>2016-04-12 10:30:01<!--<?php echo (date('Y-m-d H:i:s',$vo["comment_edit_date"])); ?>--></span>
 											<span class="reply">
-												<a onclick="return addComment.moveForm('comment-<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["comment_author_name"]); ?>', '<?php echo ($vo["comment_top_parent"]); ?>', '<?php echo ($article_info["id"]); ?>', 0)" href="/opened/index.php?m=&c=Company&a=index&id=9">[回复]</a>
+												<a onclick="return addComment.moveForm('comment-<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["cid"]); ?>', '<?php echo ($vo["comment_author_name"]); ?>', '<?php echo ($vo["comment_top_parent"]); ?>', '<?php echo ($article_info["id"]); ?>', 0)" href="/opened/index.php?m=&c=Company&a=index&id=1">[回复]</a>
 											</span>
 										</div>
 									</div>
@@ -575,7 +575,7 @@
 							<div id="respond">
 								<div class="respond_box"> <!--完美解决ie6textarea兼容问题-->
 									<div class="cancel-comment-reply">
-										<small><a rel="nofollow" id="cancel-comment-reply-link" href="/opened/index.php?m=&c=Company&a=index&id=9" style="display:none;">点击这里取消编辑</a></small>
+										<small><a rel="nofollow" id="cancel-comment-reply-link" href="/opened/index.php?m=&c=Company&a=index&id=1" style="display:none;">点击这里取消编辑</a></small>
 									</div>
 									<form action="<?php echo U('Company/ajaxComment');?>" method="post" id="commentform">
 										<div class="comt-box">
